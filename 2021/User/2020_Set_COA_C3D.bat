@@ -6,12 +6,16 @@ NET USE M: /d /y
 
 REM Checking for location of M drive
 
-IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
+IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
 
 REM Mapping the M Drive from the DFS location
 
 :MAP_DFS
 IF EXIST "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]" (NET USE M: "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]") ELSE (GOTO :Civil_Custom)
+(GOTO :Civil_Custom)
+
+:MAP_LOCAL
+IF EXIST "%USERPROFILE%\git\Civil_3D" (NET USE M: "%USERPROFILE%\git\Civil_3D") ELSE (GOTO :Civil_Custom)
 (GOTO :Civil_Custom)
 
 REM Checking for local Civil 3D Custom Data
