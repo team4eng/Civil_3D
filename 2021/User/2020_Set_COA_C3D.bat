@@ -37,12 +37,12 @@ mkdir "C:\Autodesk\Temp\"
 
 SETLOCAL
 
-SET _source_Common=M:\Autodesk\Civil_3D\[Common]
-SET _source_C3D2021=M:\Autodesk\Civil_3D\2020
+SET _source_Common=M:\Civil_3D\[Common]
+SET _source_C3D2021=M:\Civil_3D\2021
 
-SET _dest_Common=C:\Autodesk\Civil_3D\[Common]
-SET _dest_C3D2021=C:\Autodesk\Civil_3D\2020
-
+SET _dest_Common=C:\Civil_3D\[Common]
+SET _dest_C3D2021=C:\Civil_3D\2021
+ 
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
 SET _what_C3D2021=/COPY:DAT /E /R:5
 
@@ -64,8 +64,8 @@ REM Configuration stock Civil 3D for current user
 
 :Civil_Setup
 
-CALL "C:\Autodesk\Civil_3D\2021\User\C3D_2020.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
-REM CALL "C:\Autodesk\Civil_3D\2021\User\C3A_2020.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
+CALL "C:\Autodesk\Civil_3D\2021\User\C3D_2021.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
+REM CALL "C:\Autodesk\Civil_3D\2021\User\C3A_2021.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
 
 (GOTO :Refresh_Files)
 
@@ -73,11 +73,11 @@ REM Refreshing local Custom Civil 3D Data
 
 :Refresh_Files
 
-SET _source_Common=M:\Autodesk\Civil_3D\[Common]
-SET _source_C3D2021=M:\Autodesk\Civil_3D\2021
+SET _source_Common=M:\Civil_3D\[Common]
+SET _source_C3D2021=M:\Civil_3D\2021
 
-SET _dest_Common=C:\Autodesk\Civil_3D\[Common]
-SET _dest_C3D2021=C:\Autodesk\Civil_3D\2021
+SET _dest_Common=C:\Civil_3D\[Common]
+SET _dest_C3D2021=C:\Civil_3D\2021
 
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
 SET _what_C3D2021=/COPY:DAT /E /R:5
@@ -246,5 +246,5 @@ DEL "%Temp%\~import.reg"
 
 :Start_Civil3D
 ie4uinit.exe -show
-start "" /b "C:\Autodesk\Civil_3D\2021\User\ESD_C3D_2020_Start.lnk"
+start "" /b "C:\Autodesk\Civil_3D\2021\User\ESD_C3D_2021_Start.lnk"
 EXIT
