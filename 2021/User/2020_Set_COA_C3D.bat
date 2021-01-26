@@ -11,7 +11,7 @@ IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
 REM Mapping the M Drive from the DFS location
 
 :MAP_DFS
-IF EXIST \\coacd.org\dfs\GIS-CAD\[CAD_Resources] (NET USE M: \\coacd.org\dfs\GIS-CAD\[CAD_Resources]) ELSE (GOTO :Civil_Custom)
+IF EXIST "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]" (NET USE M: "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]") ELSE (GOTO :Civil_Custom)
 (GOTO :Civil_Custom)
 
 REM Checking for local Civil 3D Custom Data
