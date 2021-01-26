@@ -14,6 +14,8 @@ REM Mapping the M Drive from the DFS location
 IF EXIST "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]" (NET USE M: "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]") ELSE (GOTO :Civil_Custom)
 (GOTO :Civil_Custom)
 
+REM Mapping the M Drive from the Local location
+
 :MAP_LOCAL
 IF EXIST "%USERPROFILE%\git\Civil_3D" (NET USE M: "%USERPROFILE%\git\Civil_3D") ELSE (GOTO :Civil_Custom)
 (GOTO :Civil_Custom)
