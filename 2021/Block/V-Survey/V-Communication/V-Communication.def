@@ -1,0 +1,10 @@
+;-------------------------------------------------------------------------------
+; Survey Communication.def
+;-------------------------------------------------------------------------------
+"COMM_CLIP_E","V-COMM-SYMB","User selects","1","0","0"
+"COMM_JBOX_E","V-COMM-SYMB","User selects","1","0","0"
+"COMM_MANH_E","V-COMM-SYMB","User selects","1","0","0"
+"COMM_MRKR_E","V-NODE-COMM","User selects","1","0","0"
+"COMM_PED_E","V-COMM-SYMB","User selects","1","0","0"
+"COMM_POLE_E","V-COMM-SYMB","User selects","1","0","0"
+"COMM_VALT_E","V-COMM-SYMB","User selects","1","0","0"

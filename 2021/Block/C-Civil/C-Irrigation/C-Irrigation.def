@@ -1,0 +1,9 @@
+;------------------------------------------------------------------------------- 
+; Civil.def 
+;-------------------------------------------------------------------------------
+"IRRG_CBOX_P","C-IRRG-SYMB","User selects","1","0","0"
+"IRRG_CVLV_P","C-IRRG-SYMB","User selects","1","0","0"
+"IRRG_HBIB_P","C-IRRG-SYMB","User selects","1","0","0"
+"IRRG_METR_P","C-IRRG-SYMB","User selects","1","0","0"
+"IRRG_SPCV_P","C-IRRG-SYMB","User selects","1","0","0"
+"IRRG_SPHD_P","C-IRRG-SYMB","User selects","1","0","0"

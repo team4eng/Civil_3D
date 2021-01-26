@@ -1,0 +1,22 @@
+;------------------------------------------------------------------------------- 
+; G-Callouts.def
+;-------------------------------------------------------------------------------
+"ANNO_CIRC","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_ELPS","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_HEXG","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_RECT","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_SLOT","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_TRNG","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_LEAD_ARRW","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_CIRC","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_ELPS","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_HEXG","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_RECT","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_SLOT","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_TRNG","C-ANNO-TEXT","User selects","1","0","0"
+"TAGS_UTIL","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_GNRL","C-ANNO-TEXT","User selects","1","0","0"
+"ANNO_MATC","C-ANNO-MATC","User selects","1","0","0"
+"DETL_CIRC","C-ANNO-TEXT","User selects","1","0","0"
+"DETL_TTBL","C-ANNO-TEXT","User selects","1","0","0"
+

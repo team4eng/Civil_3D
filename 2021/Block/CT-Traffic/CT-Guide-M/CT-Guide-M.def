@@ -1,0 +1,48 @@
+;------------------------------------------------------------------------------- 
+; Traffic.def 
+;-------------------------------------------------------------------------------
+
+;------------------------------------------------------------------------------- 
+; Guide M
+;-------------------------------------------------------------------------------
+"SIGN_M4-4","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-6","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-6G","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9aL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9aR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9bL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9bR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9cL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9cR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9La","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9Ra","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9S","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9Sa","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9TL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-9TR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-10DBL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-10L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-10R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-11T","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-12T","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-14","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M4-14G","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-1L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-1R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-2aL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-2aR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-2L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-2R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-3","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-4","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-4G","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-5L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-5R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-6L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-6R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-7L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_M6-7R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+
+

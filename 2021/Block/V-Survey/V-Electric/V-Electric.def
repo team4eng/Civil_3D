@@ -1,0 +1,18 @@
+;-------------------------------------------------------------------------------
+; Survey Electric.def
+;-------------------------------------------------------------------------------
+"ELEC_CABN_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_CLIP_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_DGUY_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_HAND_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_JBOX_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGHT_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGTB_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGTE_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_MANH_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_METR_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_MRKR_E","V-NODE-ELEC","User selects","1","0","0"
+"ELEC_PBOX_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_POLE_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_TOWR_E","V-ELEC-SYMB","User selects","1","0","0"
+"ELEC_VALT_E","V-ELEC-SYMB","User selects","1","0","0"

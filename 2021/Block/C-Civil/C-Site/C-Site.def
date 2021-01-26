@@ -1,0 +1,20 @@
+;------------------------------------------------------------------------------- 
+; Civil Site.def 
+;-------------------------------------------------------------------------------
+"PLNT_LGHT_P","C-PLNT-SYMB","User selects","1","0","0"
+"PLNT_SHRB_P","C-PLNT-SYMB","User selects","1","0","0"
+"PLNT_TREE_P","C-PLNT-TREE","User selects","1","0","0"
+"PLNT_TREH_P","C-PLNT-TREE","User selects","1","0","0"
+"RAIL_SIGN_P","C-RAIL-SYMB","User selects","1","0","0"
+"SITE_BKRK_P","C-SITE-SYMB","User selects","1","0","0"
+"SITE_BLRD_P","C-SITE-BLRD","User selects","1","0","0"
+"SITE_BNCH_P","C-SITE-SYMB","User selects","1","0","0"
+"SITE_BUS_P","C-SITE-BUSW-SYMB","User selects","1","0","0"
+"SITE_GCAN_P","C-SITE-SYMB","User selects","1","0","0"
+"SITE_GRPT_P","C-GRAL-SYMB","User selects","1","0","0"
+"SITE_MAIL_P","C-SITE-SYMB","User selects","1","0","0"
+"SITE_PMTR_P","C-PRKG-SYMB","User selects","1","0","0"
+"SITE_POST_P","C-SITE-SYMB","User selects","1","0","0"
+"SITE_SIGN_P","C-SIGN-SYMB","User selects","1","0","0"
+"TICK_TOPO-CUT","C-NPLT-DSGN","User selects","1","0","0"
+"TICK_TOPO-FILL","C-NPLT-DSGN","User selects","1","0","0"

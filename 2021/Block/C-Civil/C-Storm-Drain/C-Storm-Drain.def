@@ -1,0 +1,14 @@
+;------------------------------------------------------------------------------- 
+; Civil Storm Drain.def 
+;-------------------------------------------------------------------------------
+"STRM_AINL_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_ARRW_P","C-DRAN-SYMB","User selects","1","0","0"
+"STRM_CINL_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_CLIP_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_COUT_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_GINL_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_HEAD_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_MANH_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_RFDR_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_VALT_P","C-STRM-SYMB","User selects","1","0","0"
+"STRM_WNGW_P","C-STRM-SYMB","User selects","1","0","0"

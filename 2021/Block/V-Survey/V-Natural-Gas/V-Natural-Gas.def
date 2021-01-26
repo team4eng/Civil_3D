@@ -1,0 +1,12 @@
+;-------------------------------------------------------------------------------
+; Survey Natural Gas.def
+;-------------------------------------------------------------------------------
+"NGAS_CLIP_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_LGHT_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_MANH_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_METR_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_MRKR_E","V-NODE-NGAS","User selects","1","0","0"
+"NGAS_SCON_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VALT_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VALV_E","V-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VENT_E","V-NGAS-SYMB","User selects","1","0","0"

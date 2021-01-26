@@ -1,0 +1,13 @@
+;------------------------------------------------------------------------------- 
+; G-Logos.def
+;-------------------------------------------------------------------------------
+"LOGO_COA","G-ANNO-LOGO-COA~","User selects","1","0","0"
+"LOGO_COA_DYN","G-ANNO-LOGO-COA~","User selects","1","0","0"
+"LOGO_CORMOBPROG","G-ANNO-SYMB","User selects","1","0","0"
+"LOGO_ESD","G-ANNO-LOGO-ESD~","User selects","1","0","0"
+"LOGO_TX811","G-ANNO-SYMB","User selects","1","0","0"
+"LOGO_BOND_2016","G-ANNO-SYMB","User selects","1","0","0"
+"LOGO_ATXNMOTION","G-ANNO-SYMB","User selects","1","0","0"
+"LOGO_ATXNMOTION_2016","G-ANNO-SYMB","User selects","1","0","0"
+
+

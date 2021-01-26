@@ -1,0 +1,14 @@
+;------------------------------------------------------------------------------- 
+; G-Borders.def
+;-------------------------------------------------------------------------------
+"ANNO_TTBL","G-ANNO-TTBL","User selects","1","0","0"
+"ANNO_TTBL_EXTN","G-ANNO-TTBL","User selects","1","0","0"
+"ANNO_GPBL","G-ANNO-TTBL","User selects","1","0","0"
+"ANNO_EXHB","G-ANNO-TTBL","User selects","1","0","0"
+"ANNO_EXHB_VERT","G-ANNO-TTBL","User selects","1","0","0"
+"ANNO_LETR","G-ANNO-TTBL","User selects","1","0","0"
+"GRID_PLPR","G-ANNO-GRID","User selects","User selects","0","0"
+"GRID_SECT","G-ANNO-GRID","User selects","User selects","0","0"
+
+
+

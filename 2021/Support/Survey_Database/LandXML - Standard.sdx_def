@@ -1,0 +1,379 @@
+! This is a tab delimited file used for the definition of Survey Extended Properties.																					
+!																					
+! The first parameter is the survey class or category of the extended property definition.																					
+! It may be one of these values:																					
+! 1	Database LandXML																				
+! 2	Database User-Defined																				
+! 3	Network LandXML																				
+! 4	Network User-Defined																				
+! 5	Figure LandXML																				
+! 6	Figure User-Defined																				
+! 7	Point LandXML																				
+! 8	Point User-Defined																				
+! 9	Network Group LandXML																				
+! 10	Network Group User-Defined																				
+! 11	Figure Group LandXML																				
+! 12	Figure Group User-Defined																				
+! 13	Survey Point Group LandXML																				
+! 14	Survey Point Group User-Defined																				
+! 1001	Database LandXML: Survey.FieldNote collection																				
+! 1002	Database LandXML:CoordinateSystem.element																				
+! 1003	Database LandXML:CoordinateSystem.Start element																				
+! 1004	Database LandXML: CoordinateSystem.FieldNote collection																				
+! 3001	Network LandXML: SurveyHeader.Annotation collecton																				
+! 3002	Network LandXML: SurveyHeader.AdministrativeArea collection																				
+! 3003	Network LandXML: SurveyHeader.AdministrativeDate collection																				
+! 3004	Network LandXML: SurveyHeader.MapPoint collection																				
+! 3005	Network LandXML: SurveyHeader.Personnel collection																				
+! 3006	Network LandXML: SurveyHeader.SurveyorCertificate collection																				
+! 3007	Network LandXML: SurveyHeader.PurposeOfSurvey collection																				
+! 3008	Network LandXML: SurveyHeader.FieldNote collection																				
+! 3009	Network LandXML: SurveyHeader.CoordinateSystem element																				
+! 3010	Network LandXML: SurveyHeader.CoordinateSystem.Start element																				
+! 3011	Network LandXML: SurveyHeader.CoordinateSystem.FieldNote collection																				
+! 3012	Network LandXML: SurveyHeader.HeadOfPower collection																				
+! 5001	Figure LandXML: Parcel.Title collection																				
+! 5002	Figure LandXML: Parcel.Exclusions collection																				
+! 5003	Figure LandXML: Parcel.LocationAddress collection																				
+! 5004	Figure LandXML: Parcel.Center element																				
+!																					
+! The second parameter is the data type of the extended property definition.																					
+! It may be one of these values:																					
+! 1	Angle																				
+! 2	Area																				
+! 3	Azimuth																				
+! 4	Boolean																				
+! 5	Coordinate																				
+! 6	Dimension																				
+! 7	Direction																				
+! 8	Distance																				
+! 9	Double																				
+! 10	Elevation																				
+! 11	Grade																				
+! 12	Slope																				
+! 13	Integer																				
+! 14	Latitude																				
+! 15	Longitude																				
+! 16	Percent																				
+! 17	Station																				
+! 18	String																				
+! 19	Volume																				
+! 20	Collection Display Name																				
+!																					
+! The third parameter is the extended property name.																					
+! The fourth parameter is the display name for localization.  This is a required token.  Use a period to default to the extended property name (third parameter).																					
+"! The fifth parameter if the extended property description.  This is a required token, but to indicate an empty string use a period."""																					
+! The sixth parameter is the required flag.  It may be 0 or 1 to indicate Not-Required or Required																					
+! The seventh parameter is the displayed flag.  It may be 0 or 1 to indicate whether it should be displayed in the Survey User-Interface or not.																					
+"! The remaining parameters are used only for definitions that are strings, and are displayed through the Survey User-Interface.  They are not required."""																					
+! Each string should continue to be delimited by tabs within this file.																					
+!																					
+! Class	Type	XML Name (Global) Display Name (Local)  Description	Required	Displayed	Strings																
+! Database LandXML: Project																					
+1	18	Project.name	.	.	0	1															
+1	18	Project.desc	.	.	0	1															
+1	18	Project.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+! Database LandXML: Survey																					
+1	18	Survey.desc	.	.	0	1															
+1	18	Survey.date	.	.	0	1															
+1	18	Survey.startTime	.	.	0	1															
+1	18	Survey.endTime	.	.	0	1															
+1	18	Survey.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+1	18	Survey.horizontalAccuracy	.	.	0	1															
+1	18	Survey.verticalAccuracy	.	.	0	1															
+! Database LandXML: Survey.FieldNote																					
+1001	20	Survey.FieldNote	.	This is a collection of Survey.FieldNote elements.	0	1															
+1001	18	FieldNote	.	.	0	1															
+! Database LandXML: CoordinateSystem																					
+1002	20	CoordinateSystem	.	.	0	1															
+1002	18	CoordinateSystem.desc	.	.	0	1															
+1002	18	CoordinateSystem.name	.	.	0	1															
+1002	18	CoordinateSystem.epsgCode	.	.	0	1															
+1002	18	CoordinateSystem.ogcWktCode	.	.	0	1															
+1002	18	CoordinateSystem.fileLocation	.	.	0	1															
+1002	1	CoordinateSystem.rotationAngle	.	.	0	1															
+1002	18	CoordinateSystem.datum	.	.	0	1															
+1002	18	CoordinateSystem.horizontalDatum	.	.	0	1															
+1002	18	CoordinateSystem.verticalDatum	.	.	0	1															
+1002	18	CoordinateSystem.ellipsoidName	.	.	0	1															
+1002	18	CoordinateSystem.fittedCoordinateSystemName	.	.	0	1															
+1002	18	CoordinateSystem.horizontalCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.compoundCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.localCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.geographicCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.projectedCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.geocentricCoordinateSystemName 	.	.	0	1															
+1002	18	CoordinateSystem.verticalCoordinateSystemName 	.	.	0	1															
+! Database LandXML: CoordinateSystem.Start																					
+1003	20	CoordinateSystem.Start	.	"Represents a 2D or 3D Starting or beginning Point.  Defined by either a coordinate text value (""north east"" or ""north east elev"") or a CgPoint number reference ""pntRef""."	0	1															
+1003	18	Start.name	.	.	0	1															
+1003	18	Start.desc	.	.	0	1															
+1003	18	Start.code	.	.	0	1															
+1003	18	Start.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+1003	18	Start.pntRef	.	"A reference name value referring to a PointType derived name attribute. An attribute of this type contains the value of a PointType derived element ""name"" attribute that exists elsewhere in the instance data."	0	1															
+1003	18	Start.pointGeometry	.	.	0	1	point	curve													
+1003	18	Start.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+1003	18	Start.timeStamp	.	.	0	1															
+1003	18	Start.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+1003	18	Start.determinedTimeStamp	.	.	0	1															
+1003	9	Start.ellipsoidElev	.	.	0	1															
+1003	14	Start.latitude	.	.	0	1															
+1003	15	Start.longitude	.	.	0	1															
+! Database LandXML: CoordinateSystem.FieldNote																					
+1004	20	CoordinateSystem.FieldNote	.	This is a CoordinateSystem.FieldNote collection.	0	1															
+1004	18	FieldNote	.	.	0	1															
+! Network LandXML: SurveyHeader																					
+! Built-in  3	18	SurveyHeader.name	.	.	0	1															
+! Built-in  3	18	SurveyHeader.desc	.	.	0	1															
+3	18	SurveyHeader.purpose	.	.	0	1	normal	check	backsight	foresight	traverse	sideshot	resection	levelLoop	digitalLevel	remoteElevation	reciprocalObservation	topo	cutSheets	asbuilt	
+3	18	SurveyHeader.startTime	.	.	0	1															
+3	18	SurveyHeader.endTime	.	.	0	1															
+3	18	SurveyHeader.surveyor	.	.	0	1															
+3	18	SurveyHeader.surveyorFirm	.	.	0	1															
+3	18	SurveyHeader.surveyorReference	.	.	0	1															
+3	18	SurveyHeader.surveyorRegistration	.	.	0	1															
+3	18	SurveyHeader.surveyPurpose	.	.	0	1															
+3	18	SurveyHeader.type	.	.	0	1	compiled	computed	surveyed												
+3	18	SurveyHeader.class	.	.	0	1															
+3	18	SurveyHeader.county	.	.	0	1															
+3	4	SurveyHeader.applyAtmosphericCorrection	.	.	0	1															
+3	9	SurveyHeader.pressure	.	.	0	1															
+3	9	SurveyHeader.temperature	.	.	0	1															
+3	4	SurveyHeader.applySeaLevelCorrection	.	.	0	1															
+3	9	SurveyHeader.scaleFactor	.	.	0	1															
+3	9	SurveyHeader.seaLevelCorrectionFactor	.	.	0	1															
+3	9	SurveyHeader.combinedFactor	.	.	0	1															
+3	18	SurveyHeader.jurisdiction	.	This is the name of the jurisdiction in which the Survey Lies (ie which state)	0	1															
+3	18	SurveyHeader.submissionDate	.	.	0	1															
+3	18	SurveyHeader.documentStatus	.	"This field identifies the legal status for this document, for example it is the legal record of survey, if was data captured from historical data etc.  This is used to determine processing of the record"	0	1															
+3	18	SurveyHeader.surveyFormat	.	"Describes the format of the survey and is a jurisdictional specific list for example a stand format survey, Building Format Survey."	0	1															
+3	18	SurveyHeader.surveyStatus	.	"Defines the status of this version of the file and will be a jurisdictional specific list, for example ""survey Record Only"", Suitable for Registration"" etc"	0	1															
+3	13	SurveyHeader.communityTitleSchemeNo	.	.	0	1															
+3	18	SurveyHeader.communityTitleSchemeName	.	.	0	1															
+3	4	SurveyHeader.fieldNoteFlag	.	.	0	1															
+3	18	SurveyHeader.fieldNoteReference	.	.	0	1															
+3	18	SurveyHeader.fieldReport	.	.	0	1															
+! Network LandXML: SurveyHeader.Annotation																					
+3001	20	SurveyHeader.Annotation	.	This is a collection of Annotation elements.  Annotation is a descriptive string used to describe an action on survey	0	1															
+3001	18	Annotation.type	.	.	0	1															
+3001	18	Annotation.name	.	.	0	1															
+3001	18	Annotation.desc	.	.	0	1															
+3001	18	Annotation.pclRef	.	.	0	1															
+! Network LandXML: SurveyHeader.AdministrativeArea																					
+3002	20	SurveyHeader.AdministrativeArea	.	This is a collection of AdministrativeArea elements Each element stores the administrative boundaries for a survey	0	1															
+3002	18	AdministrativeArea.adminAreaType	.	.	0	1															
+3002	18	AdministrativeArea.adminAreaName	.	.	0	1															
+3002	18	AdministrativeArea.adminAreaCode	.	.	0	1															
+3002	18	AdministrativeArea.pclRef	.	.	0	1															
+! Network LandXML: SurveyHeader.AdministrativeDate																					
+3003	20	SurveyHeader.AdministrativeDate	.	This is a collection of AdminstrativeDate elements.  Each element stores a range of Administrative dates which may vary from jurisdiction to jurisdiction.	0	1															
+3003	18	AdministrativeDate.adminDateType	.	.	0	1															
+3003	18	AdministrativeDate.adminDate	.	.	0	1															
+! Network LandXML: SurveyHeader.CoordinateSystem																					
+3009	20	SurveyHeader.CoordinateSystem	.	This is the SurveyHeader.CoordinateSystem element.	0	1															
+3009	18	CoordinateSystem.desc	.	.	0	1															
+3009	18	CoordinateSystem.name	.	.	0	1															
+3009	18	CoordinateSystem.epsgCode	.	.	0	1															
+3009	18	CoordinateSystem.ogcWktCode	.	.	0	1															
+3009	18	CoordinateSystem.fileLocation	.	.	0	1															
+3009	1	CoordinateSystem.rotationAngle	.	.	0	1															
+3009	18	CoordinateSystem.datum	.	.	0	1															
+3009	18	CoordinateSystem.horizontalDatum	.	.	0	1															
+3009	18	CoordinateSystem.verticalDatum	.	.	0	1															
+3009	18	CoordinateSystem.ellipsoidName	.	.	0	1															
+3009	18	CoordinateSystem.fittedCoordinateSystemName	.	.	0	1															
+3009	18	CoordinateSystem.horizontalCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.compoundCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.localCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.geographicCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.projectedCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.geocentricCoordinateSystemName 	.	.	0	1															
+3009	18	CoordinateSystem.verticalCoordinateSystemName 	.	.	0	1															
+! Network LandXML: SurveyHeader.CoordinateSystem.Start																					
+3010	20	CoordinateSystem.Start	.	"Represents a 2D or 3D Starting or beginning Point.  Defined by either a coordinate text value (""north east"" or ""north east elev"") or a CgPoint number reference ""pntRef""."	0	1															
+3010	18	Start.name	.	.	0	1															
+3010	18	Start.desc	.	.	0	1															
+3010	18	Start.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+3010	18	Start.code	.	.	0	1															
+3010	18	Start.pntRef	.	"A reference name value referring to a PointType derived name attribute. An attribute if this type contains the value of a PointType derived element ""name"" attribute that exists elsewhere the instance data."	0	1															
+3010	18	Start.pointGeometry	.	.	0	1	point	curve													
+3010	18	Start.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+3010	18	Start.timeStamp	.	.	0	1															
+3010	18	Start.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+3010	18	Start.determinedTimeStamp	.	.	0	1															
+3010	9	Start.ellipsoidElev	.	.	0	1															
+3010	14	Start.latitude	.	.	0	1															
+3010	15	Start.longitude	.	.	0	1															
+! Network LandXML: SurveyHeader.CoordinateSystem.FieldNote																					
+3011	20	CoordinateSystem.FieldNote	.	This is a CoordinateSystem.FieldNote collection.	0	1															
+3011	18	FieldNote	.	.	0	1															
+! Network LandXML: SurveyHeader.MapPoint																					
+3004	20	SurveyHeader.MapPoint	.	"This is a collection of MapPoint elements.  Each MapPoint represents a 2D or 3D Point location for general Survey location.  Defined by either a coordinate text value (""north east"" or ""north east elev"") or a PointType number reference ""pntRef"" attribute."	0	1															
+3004	18	MapPoint.name	.	.	0	1															
+3004	18	MapPoint.desc	.	.	0	1															
+3004	18	MapPoint.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+3004	18	MapPoint.code	.	.	0	1															
+3004	18	MapPoint.pntRef	.	"A reference name value referring to a PointType derived name attribute. An attribute of this type contains the value of a PointType derived element ""name"" attribute that exists elsewhere in the instance data."	0	1															
+3004	18	MapPoint.pointGeometry	.	.	0	1	point	curve													
+3004	18	MapPoint.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+3004	18	MapPoint.timeStamp	.	.	0	1															
+3004	18	MapPoint.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+3004	18	MapPoint.determinedTimeStamp	.	.	0	1															
+3004	9	MapPoint.ellipsoidElev	.	.	0	1															
+3004	14	MapPoint.latitude	.	.	0	1															
+3004	15	MapPoint.longitude	.	.	0	1															
+! Network LandXML: SurveyHeader.Personnel																					
+3005	20	SurveyHeader.Personnel	.	.	0	1															
+3005	18	Personnel.name	.	.	0	1															
+3005	18	Personnel.role	.	"This is a jurisdictional based list of roles that a surveyor can undertake within a survey for example field hand, authorising surveyor, technician."	0	1															
+3005	18	Personnel.regType	.	This is a jurisdictional based list of classes of registration for a surveyor.  This allows validation of the surveyors role in the survey for legal traceablity.	0	1															
+3005	18	Personnel.regNumber	.	.	0	1															
+! Network LandXML: SurveyHeader.SurveyorCertificate																					
+3006	20	SurveyHeader.SurveyorCertificate	.	.	0	1															
+3006	18	SurveyorCertificate.name	.	.	0	1															
+3006	18	SurveyorCertificate.certificateType	.	.	0	1															
+3006	18	SurveyorCertificate.textCertificate	.	.	0	1															
+3006	18	SurveyorCertificate.surveyDate	.	.	0	1															
+! Network LandXML: SurveyHeader.PurposeOfSurvey																					
+3007	20	SurveyHeader.PurposeOfSurvey	.	.	0	1															
+3007	18	PurposeOfSurvey.name	.	.	0	1															
+! Network LandXML: SurveyHeader.FieldNote																					
+3008	20	SurveyHeader.FieldNote	.	This is a collection of SurveyHeader.FieldNote elements.	0	1															
+3008	18	FieldNote	.	.	0	1															
+! Network LandXML: SurveyHeader.HeadOfPower																					
+3012	20	SurveyHeader.HeadOfPower	.	This is a collection of SurveyHeader.HeadOfPower elements.	0	1															
+3012	18	HeadOfPower.name	.	.	0	1															
+! Figure LandXML: Chain																					
+5	18	Chain.name	.	.	0	1															
+5	18	Chain.desc	.	.	0	1															
+5	18	Chain.code	.	.	0	1															
+5	18	Chain.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+5	18	Chain.pointGeometry	.	.	0	1	point	curve													
+5	18	Chain.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+5	18	Chain.timeStamp	.	.	0	1															
+5	18	Chain.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+5	17	Chain.station	.	.	0	1															
+5	18	Chain.zone	.	.	0	1															
+5	18	Chain.status	.	.	0	1	modified	deleted													
+! Figure LandXML: Parcel																					
+! Built-in  5	18	Parcel.name	.	.	1	1															
+5	18	Parcel.oID	.	.	0	1															
+5	9	Parcel.area	.	.	0	1															
+5	18	Parcel.desc	.	.	0	1															
+5	7	Parcel.dirClosure	.	.	0	1															
+5	9	Parcel.distClosure	.	.	0	1															
+5	18	Parcel.owner	.	.	0	1															
+5	18	Parcel.parcelType	.	.	0	1															
+5	9	Parcel.setbackFront	.	.	0	1															
+5	9	Parcel.setbackRear	.	.	0	1															
+5	9	Parcel.setbackSide	.	.	0	1															
+5	18	Parcel.state	.	.	0	1	affected	created	encroached	extinguished	referenced	proposed	existing	adjoining							
+5	18	Parcel.taxId	.	.	0	1															
+5	18	Parcel.class	.	This is a list of parcel classes which may be jurisdictional specific defined by regulation and legislation.	0	1															
+5	18	Parcel.useOfParcel	.	Describes what the parcel is used for.  This would be a jurisdictional specific list.	0	1															
+5	18	Parcel.parcelFormat	.	"Parcel Format describes how the parcel is described , i.e. Standard (2D), Volumetric (3D)."	0	1															
+5	18	Parcel.buildingNo	.	.	0	1															
+5	18	Parcel.buildingLevelNo	.	.	0	1															
+5	18	Parcel.volume	.	.	0	1															
+5	18	Parcel.pclRef	.	A reference name value referring to Parcel.name attribute.	0	1															
+5	18	Parcel.lotEntitlements	.	.	0	1															
+5	18	Parcel.liabilityApportionment	.	.	0	1															
+! Figure LandXML: Parcel.Center																					
+3004	20	Parcel.Center	.	.	0	1															
+3004	18	Center.name	.	.	0	1															
+3004	18	Center.desc	.	.	0	1															
+3004	18	Center.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+3004	18	Center.code	.	.	0	1															
+3004	18	Center.pntRef	.	"A reference name value referring to a PointType derived name attribute. An attribute of this type contains the value of a PointType derived element ""name"" attribute that exists elsewhere in the instance data."	0	1															
+3004	18	Center.pointGeometry	.	.	0	1	point	curve													
+3004	18	Center.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+3004	18	Center.timeStamp	.	.	0	1															
+3004	18	Center.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+3004	18	Center.determinedTimeStamp	.	.	0	1															
+3004	9	Center.ellipsoidElev	.	.	0	1															
+3004	14	Center.latitude	.	.	0	1															
+3004	15	Center.longitude	.	.	0	1															
+! Figure LandXML: Parcel.Title																					
+5001	20	Parcel.Title	.	This is a collection of Parcel.Title elements.	0	1															
+5001	18	Title.name	.	.	0	1															
+5001	18	Title.titleType	.	.	0	1															
+! Figure LandXML: Parcel.Exclusions																					
+5002	20	Parcel.Exclusions	.	This is a collection of Parcel.Exclusion elements.  An Exclusion is an area which has been reserved from a tenure for a specific purpose but may have no defined spatial extent for example 10ha for road. A single parcel could have more than one exclusion for different purposes.	0	1															
+5002	18	Exclusions.exclusionType	.	"This is a jurisdictional based list of exclusions for a Title example would be exclusions for Road, Track, Esplanade etc "	0	1															
+5002	2	Exclusions.area	.	.	0	1															
+! Figure LandXML: Parcel.LocationAddress																					
+5003	20	Parcel.LocationAddress	.	This is a collection of Parcel.LocationAddress elements.  Each element is used to define the location or positional address of a parcel. The address record is not designed to be a postal address (ie it has not postcode or zipcode etc) The element also needs to be able to handle both primary addresses and aliases if required.	0	1															
+5003	18	LocationAddress.addressType	.	"This Type is to define a ljurisdictional specific list of address types such a primary addres, alias, secondary, historical etc."	0	1															
+5003	18	LocationAddress.flatType	.	To define a Jurisdictional specific list of address living unit types for addressing	0	1															
+5003	18	LocationAddress.flatNumber	.	.	0	1															
+5003	18	LocationAddress.floorLevelType	.	"To define a jurisdictional specific list of floo level types for example, Lower Ground Floor"	0	1															
+5003	18	LocationAddress.floorLevelNumber	.	.	0	1															
+5003	13	LocationAddress.numberFirst	.	.	0	1															
+5003	18	LocationAddress.numberSuffixFirst	.	.	0	1															
+5003	13	LocationAddress.numberLast	.	.	0	1															
+5003	18	LocationAddress.numberSuffixLast	.	.	0	1															
+! Figure LandXML:PlanFeature																					
+5	18	PlanFeature.desc	.	.	0	1															
+! Built-in  5	18	PlanFeature.name	.	.	0	1															
+5	18	PlanFeature.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+! Figure Group LandXML: Parcels																					
+! Built-in  11	18	Parcels.desc	.	.	0	1															
+! Built-in  11	18	Parcels.name	.	.	0	1															
+11	18	Parcels.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+! Figure Group LandXML: PlanFeatures																					
+! Built-in  11	18	PlanFeatures.desc	.	.	0	1															
+! Built-in  11	18	PlanFeatures.name	.	.	0	1															
+11	18	PlanFeatures.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+! Survey Point LandXML: CgPoint																					
+! Built-in  7	18	CgPoint.name	.	.	0	1															
+! Built-in  7	18	CgPoint.desc	.	.	0	1															
+7	18	CgPoint.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+7	18	CgPoint.code	.	.	0	1															
+7	18	CgPoint.pntRef	.	"A reference name value referring to a PointType derived name attribute. An attribute of this type contains the value of a PointType derived element ""name"" attribute that exists elsewhere in the instance data."	0	1															
+7	18	CgPoint.pointGeometry	.	.	0	1	point	curve													
+7	18	CgPoint.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	
+7	18	CgPoint.timeStamp	.	.	0	1															
+7	18	CgPoint.role	.	.	0	1	measured	to stake out	staked out	calculated	assistance point	user entered point	control point								
+7	18	CgPoint.determinedTimeStamp	.	.	0	1															
+7	9	CgPoint.ellipsoidElev	.	.	0	1															
+! Built-in  7	14	CgPoint.latitude	.	.	0	1															
+! Built-in  7	15	CgPoint.longitude	.	.	0	1															
+7	18	CgPoint.oID	.	.	0	1															
+7	18	CgPoint.surveyOrder	.	.	0	1															
+7	18	CgPoint.pntSurv	.	.	0	1	monument	control	sideshot	boundary	natural boundary	traverse	reference	administrative							
+7	13	CgPoint.zoneNumber	.	.	0	1															
+7	18	CgPoint.surveyHorizontalOrder	.	.	0	1															
+7	18	CgPoint.surveyVerticalOrder	.	.	0	1															
+7	9	CgPoint.localUncertainity	.	.	0	1															
+7	9	CgPoint.positionalUncertainity	.	.	0	1															
+! Survey Point LandXML: SurveyMonument																					
+7	18	SurveyMonument.mntRef	.	A reference name value referring to monument.name attribute.	0	1															
+7	18	SurveyMonument.purpose	.	.	0	1															
+7	18	SurveyMonument.state	.	This is a list of states for a monument.  Each jurisdiction may have a list defined by regulation. 	0	1															
+7	18	SurveyMonument.adoptedSurvey	.	.	0	1															
+7	18	SurveyMonument.disturbedMonument	.	.	0	1															
+7	18	SurveyMonument.disturbedDate	.	.	0	1															
+7	18	SurveyMonument.disturbedAnnotation	.	.	0	1															
+7	18	SurveyMonument.replacedMonument	.	.	0	1															
+7	18	SurveyMonument.replacedDate	.	.	0	1															
+7	18	SurveyMonument.replacedAnnotation	.	.	0	1															
+! Survey Point LandXML: Monument																					
+7	18	Monument.name	.	.	0	1															
+7	18	Monument.pntRef	.	.	0	1															
+7	18	Monument.desc	.	.	0	1															
+7	18	Monument.state	.	This is a list of states for a monument.  Each jurisdiction may have a list defined by regulation. 	0	1															
+7	18	Monument.type	.	"This is a list of allowable monument types that can be used or identified for a survey, ie peg, spike, pillar etc. Local custom will define this list."	0	1															
+7	18	Monument.condition	.	This gives a list of allowable local conditions defined by regulation can be defined by the jurisdiction. 	0	1															
+7	18	Monument.category	.	.	0	1	benchmark	central	reference	rural	standard traverse	urban standard traverse									
+7	18	Monument.beacon	.	.	0	1	cairn	chimney	large quadripod	lighthouse	marine beacon	mast	mast with targets	no beacon	other	pillar	post	small quadripod	tower	tripod	unknown
+7	18	Monument.beaconProtection	.	.	0	1	cover	cover and box	fence enclosure	marker post	no protection	other	quadripod	unknown							
+7	18	Monument.oID	.	.	0	1															
+7	18	Monument.reference	.	.	0	1															
+7	18	Monument.originSurvey	.	.	0	1															
+! Survey Point Group LandXML: CgPoints																					
+! Built-in  13	18	CgPoints.desc	.	.	0	1															
+! Built-in  13	18	CgPoints.name	.	.	0	1															
+13	18	CgPoints.state	.	.	0	1	abandoned	destroyed	existing	proposed											
+13	18	CgPoints.code	.	.	0	1															
+13	13	CgPoints.zoneNumber	.	.	0	1															
+13	18	CgPoints.DTMAttribute	.	.	0	1	determinebyfeature	donotinclude	spot	spotandbreak	void	drapevoid	breakvoid	island	boundary	contour	feature	ground	xsection	user	

@@ -1,0 +1,18 @@
+;------------------------------------------------------------------------------- 
+; Civil WasteWater.def 
+;-------------------------------------------------------------------------------
+"WWTR_ARV_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_BFPV_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_CAP_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_CLIP_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_COUT_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_LSTA_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_MANH_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_MATC_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_METR_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_PLUG_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_PRJS_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_REDC_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_SCON_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_VALT_P","C-WWTR-SYMB","User selects","1","0","0"
+"WWTR_VALV_P","C-WWTR-SYMB","User selects","1","0","0"

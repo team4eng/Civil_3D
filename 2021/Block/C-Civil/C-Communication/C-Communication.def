@@ -1,0 +1,9 @@
+;------------------------------------------------------------------------------- 
+; Civil Communication.def 
+;-------------------------------------------------------------------------------
+"COMM_CLIP_P","C-COMM-SYMB","User selects","1","0","0"
+"COMM_JBOX_P","C-COMM-SYMB","User selects","1","0","0"
+"COMM_MANH_P","C-COMM-SYMB","User selects","1","0","0"
+"COMM_PED_P","C-COMM-SYMB","User selects","1","0","0"
+"COMM_POLE_P","C-COMM-SYMB","User selects","1","0","0"
+"COMM_VALT_P","C-COMM-SYMB","User selects","1","0","0"

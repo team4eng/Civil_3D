@@ -1,0 +1,7 @@
+;------------------------------------------------------------------------------- 
+; Civil Chilled Water.def 
+;-------------------------------------------------------------------------------
+"CWTR_CLIP_P","C-CWTR-SYMB","User selects","1","0","0"
+"CWTR_MANH_P","C-CWTR-SYMB","User selects","1","0","0"
+"CWTR_VALT_P","C-CWTR-SYMB","User selects","1","0","0"
+"CWTR_VALV_P","C-CWTR-SYMB","User selects","1","0","0"

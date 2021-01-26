@@ -1,0 +1,10 @@
+;-------------------------------------------------------------------------------
+; Survey Irrigation.def
+;-------------------------------------------------------------------------------
+"IRRG_CBOX_E","V-IRRG-SYMB","User selects","1","0","0"
+"IRRG_CVLV_E","V-IRRG-SYMB","User selects","1","0","0"
+"IRRG_HBIB_E","V-IRRG-SYMB","User selects","1","0","0"
+"IRRG_METR_E","V-IRRG-SYMB","User selects","1","0","0"
+"IRRG_MRKR_E","V-NODE_IRRG","User selects","1","0","0"
+"IRRG_SPCV_E","V-IRRG-SYMB","User selects","1","0","0"
+"IRRG_SPHD_E","V-IRRG-SYMB","User selects","1","0","0"

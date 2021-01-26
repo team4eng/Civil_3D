@@ -1,0 +1,244 @@
+<?xml version="1.0"?>
+<LandPart desc="Part Table" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" fixColumn="C1">
+	<ColumnConstView desc="Parameter-driven Display" id="CCV1" viewKey="3d" viewName="AeccPartRecipe" pathsRelativeTo="Table">
+		<Images>
+			<Image>
+				<URL xlink:title="Part Reference Image" xlink:href="COA_StormDrain_CMPA.bmp"/>
+			</Image>
+		</Images>
+		<Recipe>COA_StormDrain_CMPA.dwg</Recipe>
+	</ColumnConstView>
+	<ColumnUnique desc="Primary Key" datatype="string" name="UUID" visible="0">
+		<RowUnique id="r0">9E8ABC9A-EE03-4C06-A70F-653EA2FF3656</RowUnique>
+		<RowUnique id="r1">8C332C8F-7044-4601-8B9F-BE7C8AD7AA4D</RowUnique>
+		<RowUnique id="r2">2B87CCF7-1E64-4DF9-9DBA-A720A19C6B1C</RowUnique>
+		<RowUnique id="r3">8817CA55-6C92-4C2C-9AA9-DA0F92E563CD</RowUnique>
+		<RowUnique id="r4">20C92416-76D1-4F17-93B4-A0555F9997D5</RowUnique>
+		<RowUnique id="r5">1775E02E-7214-4C7B-A5DC-2B04DF16CFC6</RowUnique>
+		<RowUnique id="r6">ABA326CB-042C-492C-A193-271911718345</RowUnique>
+		<RowUnique id="r7">5346F6D4-FE2E-4CD7-BB1D-604E7B55A90A</RowUnique>
+		<RowUnique id="r8">AF8DC97B-FBF2-4C9D-908D-089FBAF5D544</RowUnique>
+		<RowUnique id="r9">90BCBC6A-68AB-4292-B3A3-927D46FD27FE</RowUnique>
+		<RowUnique id="r10">AE8D7975-4349-4090-BCC0-51FF6F1CF13D</RowUnique>
+		<RowUnique id="r11">1671C643-05D9-4B6D-B148-064872A8A731</RowUnique>
+		<RowUnique id="r12">688E8269-3A7E-4916-9880-6B4BEE795FD6</RowUnique>
+		<RowUnique id="r13">A0ADAC75-CF62-465E-93BC-8734AEC29D6A</RowUnique>
+		<RowUnique id="r14">B9EE1951-0BF6-4CEE-AEED-81FF9EA9640E</RowUnique>
+		<RowUnique id="r15">04C0E22F-A47E-45BE-91BF-743EEEAD9616</RowUnique>
+		<RowUnique id="r16">F81CFEE6-2BDF-46BA-BF87-923B4C1D291F</RowUnique>
+		<RowUnique id="r17">1C782AA8-E76A-474A-8DFF-18ABC349B55E</RowUnique>
+		<RowUnique id="r18">9808B6BD-808C-4243-A644-A956B01212CD</RowUnique>
+		<RowUnique id="r19">B01AF868-89B1-466E-B3DE-9CE8F80A2F62</RowUnique>
+	</ColumnUnique>
+	<Column desc="Wall Thickness" dataType="float" unit="inch" name="WTh" id="C1" visible="1" context="WallThickness" index="0">
+		<Row id="r0">0.0640</Row>
+		<Row id="r1">0.0640</Row>
+		<Row id="r2">0.0640</Row>
+		<Row id="r3">0.0640</Row>
+		<Row id="r4">0.0790</Row>
+		<Row id="r5">0.0790</Row>
+		<Row id="r6">0.1090</Row>
+		<Row id="r7">0.1090</Row>
+		<Row id="r8">0.1090</Row>
+		<Row id="r9">0.1090</Row>
+		<Row id="r10">0.1090</Row>
+		<Row id="r11">0.1090</Row>
+		<Row id="r12">0.1090</Row>
+		<Row id="r13">0.1090</Row>
+		<Row id="r14">0.1680</Row>
+		<Row id="r15">0.1680</Row>
+		<Row id="r16">0.1680</Row>
+		<Row id="r17">0.1680</Row>
+		<Row id="r18">0.1680</Row>
+		<Row id="r19">0.1680</Row>
+	</Column>
+	<Column desc="Nominal Span" dataType="float" unit="inch" name="PID" id="C2" visible="1" context="PipeInnerDiameter" index="0">
+		<Row id="r0">17.0000</Row>
+		<Row id="r1">21.0000</Row>
+		<Row id="r2">24.0000</Row>
+		<Row id="r3">28.0000</Row>
+		<Row id="r4">35.0000</Row>
+		<Row id="r5">42.0000</Row>
+		<Row id="r6">49.0000</Row>
+		<Row id="r7">57.0000</Row>
+		<Row id="r8">64.0000</Row>
+		<Row id="r9">71.0000</Row>
+		<Row id="r10">77.0000</Row>
+		<Row id="r11">83.0000</Row>
+		<Row id="r12">87.0000</Row>
+		<Row id="r13">95.0000</Row>
+		<Row id="r14">103.0000</Row>
+		<Row id="r15">112.0000</Row>
+		<Row id="r16">117.0000</Row>
+		<Row id="r17">128.0000</Row>
+		<Row id="r18">137.0000</Row>
+		<Row id="r19">142.0000</Row>
+	</Column>
+	<Column desc="Span" dataType="float" unit="inch" name="LenA1" id="C3" visible="0" context="Geometry_Distance2D" index="1">
+		<Row id="r0">17.0000</Row>
+		<Row id="r1">21.0000</Row>
+		<Row id="r2">24.0000</Row>
+		<Row id="r3">28.0000</Row>
+		<Row id="r4">35.0000</Row>
+		<Row id="r5">42.0000</Row>
+		<Row id="r6">49.0000</Row>
+		<Row id="r7">57.0000</Row>
+		<Row id="r8">64.0000</Row>
+		<Row id="r9">71.0000</Row>
+		<Row id="r10">77.0000</Row>
+		<Row id="r11">83.0000</Row>
+		<Row id="r12">87.0000</Row>
+		<Row id="r13">95.0000</Row>
+		<Row id="r14">103.0000</Row>
+		<Row id="r15">112.0000</Row>
+		<Row id="r16">117.0000</Row>
+		<Row id="r17">128.0000</Row>
+		<Row id="r18">137.0000</Row>
+		<Row id="r19">142.0000</Row>
+	</Column>
+	<Column desc="Rise" dataType="float" unit="inch" name="LenA2" id="C4" visible="0" context="Geometry_Distance2D" index="2">
+		<Row id="r0">13.0000</Row>
+		<Row id="r1">15.0000</Row>
+		<Row id="r2">18.0000</Row>
+		<Row id="r3">20.0000</Row>
+		<Row id="r4">24.0000</Row>
+		<Row id="r5">29.0000</Row>
+		<Row id="r6">33.0000</Row>
+		<Row id="r7">38.0000</Row>
+		<Row id="r8">43.0000</Row>
+		<Row id="r9">47.0000</Row>
+		<Row id="r10">52.0000</Row>
+		<Row id="r11">57.0000</Row>
+		<Row id="r12">63.0000</Row>
+		<Row id="r13">67.0000</Row>
+		<Row id="r14">71.0000</Row>
+		<Row id="r15">75.0000</Row>
+		<Row id="r16">79.0000</Row>
+		<Row id="r17">83.0000</Row>
+		<Row id="r18">87.0000</Row>
+		<Row id="r19">91.0000</Row>
+	</Column>
+	<Column desc="Lower Radius" dataType="float" unit="inch" name="R1" id="C5" visible="0" context="Geometry_ModelDistanceParameter" index="1">
+		<Row id="r0">11.2500</Row>
+		<Row id="r1">14.2500</Row>
+		<Row id="r2">14.7500</Row>
+		<Row id="r3">17.7500</Row>
+		<Row id="r4">22.5000</Row>
+		<Row id="r5">29.5000</Row>
+		<Row id="r6">36.5000</Row>
+		<Row id="r7">43.0000</Row>
+		<Row id="r8">48.5000</Row>
+		<Row id="r9">54.5000</Row>
+		<Row id="r10">59.0000</Row>
+		<Row id="r11">63.0000</Row>
+		<Row id="r12">43.5000</Row>
+		<Row id="r13">47.7500</Row>
+		<Row id="r14">51.7500</Row>
+		<Row id="r15">56.2500</Row>
+		<Row id="r16">58.7500</Row>
+		<Row id="r17">64.5000</Row>
+		<Row id="r18">69.0000</Row>
+		<Row id="r19">71.2500</Row>
+	</Column>
+	<Column desc="Upper Radius" dataType="float" unit="inch" name="R2" id="C6" visible="0" context="Geometry_ModelDistanceParameter" index="2">
+		<Row id="r0">8.5000</Row>
+		<Row id="r1">10.7500</Row>
+		<Row id="r2">12.0000</Row>
+		<Row id="r3">14.1250</Row>
+		<Row id="r4">17.7500</Row>
+		<Row id="r5">21.2500</Row>
+		<Row id="r6">24.7500</Row>
+		<Row id="r7">28.7500</Row>
+		<Row id="r8">32.2500</Row>
+		<Row id="r9">36.0000</Row>
+		<Row id="r10">38.7500</Row>
+		<Row id="r11">41.7500</Row>
+		<Row id="r12">100.5000</Row>
+		<Row id="r13">116.0000</Row>
+		<Row id="r14">132.5000</Row>
+		<Row id="r15">151.7500</Row>
+		<Row id="r16">160.5000</Row>
+		<Row id="r17">185.0000</Row>
+		<Row id="r18">201.0000</Row>
+		<Row id="r19">210.0000</Row>
+	</Column>
+	<Column desc="Inner Pipe Height" dataType="float" unit="inch" name="PIH" id="C7" visible="1" context="PipeInnerHeight" index="0">
+		<Row id="r0">13.0000</Row>
+		<Row id="r1">15.0000</Row>
+		<Row id="r2">18.0000</Row>
+		<Row id="r3">20.0000</Row>
+		<Row id="r4">24.0000</Row>
+		<Row id="r5">29.0000</Row>
+		<Row id="r6">33.0000</Row>
+		<Row id="r7">38.0000</Row>
+		<Row id="r8">43.0000</Row>
+		<Row id="r9">47.0000</Row>
+		<Row id="r10">52.0000</Row>
+		<Row id="r11">57.0000</Row>
+		<Row id="r12">63.0000</Row>
+		<Row id="r13">67.0000</Row>
+		<Row id="r14">71.0000</Row>
+		<Row id="r15">75.0000</Row>
+		<Row id="r16">79.0000</Row>
+		<Row id="r17">83.0000</Row>
+		<Row id="r18">87.0000</Row>
+		<Row id="r19">91.0000</Row>
+	</Column>
+	<Column desc="Inner Pipe Width" dataType="float" unit="inch" name="PIW" id="C8" visible="1" context="PipeInnerWidth" index="0">
+		<Row id="r0">17.0000</Row>
+		<Row id="r1">21.0000</Row>
+		<Row id="r2">24.0000</Row>
+		<Row id="r3">28.0000</Row>
+		<Row id="r4">35.0000</Row>
+		<Row id="r5">42.0000</Row>
+		<Row id="r6">49.0000</Row>
+		<Row id="r7">57.0000</Row>
+		<Row id="r8">64.0000</Row>
+		<Row id="r9">71.0000</Row>
+		<Row id="r10">77.0000</Row>
+		<Row id="r11">83.0000</Row>
+		<Row id="r12">87.0000</Row>
+		<Row id="r13">95.0000</Row>
+		<Row id="r14">103.0000</Row>
+		<Row id="r15">112.0000</Row>
+		<Row id="r16">117.0000</Row>
+		<Row id="r17">128.0000</Row>
+		<Row id="r18">137.0000</Row>
+		<Row id="r19">142.0000</Row>
+	</Column>
+	<Column desc="Part Size Name" dataType="string" unit="" name="PrtSN" id="C9" visible="1" context="Catalog_PartSizeName" index="0">
+		<Row id="r0">13"x17" CMPA</Row>
+		<Row id="r1">15"x21" CMPA</Row>
+		<Row id="r2">18"x24" CMPA</Row>
+		<Row id="r3">20"x28" CMPA</Row>
+		<Row id="r4">24"x35" CMPA</Row>
+		<Row id="r5">29"x42" CMPA</Row>
+		<Row id="r6">33"x49" CMPA</Row>
+		<Row id="r7">38"x57" CMPA</Row>
+		<Row id="r8">43"x64" CMPA</Row>
+		<Row id="r9">47"x71" CMPA</Row>
+		<Row id="r10">52"x77" CMPA</Row>
+		<Row id="r11">57"x83" CMPA</Row>
+		<Row id="r12">63"x87" CMPA</Row>
+		<Row id="r13">67"x95" CMPA</Row>
+		<Row id="r14">71"x103" CMPA</Row>
+		<Row id="r15">75"x112" CMPA</Row>
+		<Row id="r16">79"x117" CMPA</Row>
+		<Row id="r17">83"x128" CMPA</Row>
+		<Row id="r18">87"x137" CMPA</Row>
+		<Row id="r19">91"x142" CMPA</Row>
+	</Column>
+	<ColumnConst desc="Part Domain" dataType="string" unit="" name="PDom" id="CC0" visible="0" context="Catalog_Domain" index="0">Pipe_Domain</ColumnConst>
+	<ColumnConst desc="Part Type" dataType="string" unit="" name="PTyp" id="CC1" visible="1" context="Catalog_PartType" index="0">Pipe</ColumnConst>
+	<ColumnConst desc="Part Subtype" dataType="string" unit="" name="PSTyp" id="CC2" visible="1" context="Catalog_SubType" index="0">Undefined</ColumnConst>
+	<ColumnConst desc="Part Name" dataType="string" unit="" name="PrtNm" id="CC3" visible="0" context="Catalog_PartName" index="0">COA_StormDrain_CMPA</ColumnConst>
+	<ColumnConst desc="Part Description" dataType="string" unit="" name="PrtD" id="CC4" visible="1" context="Catalog_PartDesc" index="0">COA Storm Drain CMPA</ColumnConst>
+	<ColumnConst desc="Part ID" dataType="string" unit="" name="PrtID" id="CC5" visible="0" context="Catalog_PartID" index="0">10406921-5E82-4C9F-8AC1-E0D3F362A57D</ColumnConst>
+	<ColumnConst desc="Data Version" dataType="string" unit="" name="DVer" id="CC6" visible="0" context="DataVersion" index="0">2.0</ColumnConst>
+	<ColumnConst desc="Content Type" dataType="int" unit="" name="CntTy" id="CC7" visible="0" context="Content_Type" index="0">4</ColumnConst>
+	<ColumnConst desc="Hide Part Flag" dataType="bool" unit="" name="HPrtF" id="CC8" visible="0" context="Catalog_PartHide" index="0">0</ColumnConst>
+	<ColumnConst desc="Cross Sectional Shape" dataType="string" unit="" name="CSS" id="CC9" visible="1" context="SweptShape" index="0">SweptShape_Arched</ColumnConst>
+	<ColumnConst desc="Material" dataType="string" unit="" name="Mat" id="CC10" visible="1" context="Material_Type" index="0">STRM</ColumnConst>
+	<ColumnCalc desc="Body Diameter 1" dataType="float" unit="inch" name="BdyD1" id="CCA0" visible="0" context="BodyGeometry_Diameter" index="1">$R1*2</ColumnCalc>
+	<ColumnCalc desc="Body Diameter 2" dataType="float" unit="inch" name="BdyD2" id="CCA1" visible="0" context="BodyGeometry_Diameter" index="2">$R2*2</ColumnCalc>
+</LandPart>

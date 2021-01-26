@@ -1,0 +1,71 @@
+! This is a tab delimited file used for the definition of Survey Extended Properties.	
+!	
+! The first parameter is the survey class or category of the extended property definition.	
+! It may be one of these values:	
+! 1	Database LandXML
+! 2	Database User-Defined
+! 3	Network LandXML
+! 4	Network User-Defined
+! 5	Figure LandXML
+! 6	Figure User-Defined
+! 7	Point LandXML
+! 8	Point User-Defined
+! 9	Network Group LandXML
+! 10	Network Group User-Defined
+! 11	Figure Group LandXML
+! 12	Figure Group User-Defined
+! 13	Survey Point Group LandXML
+! 14	Survey Point Group User-Defined
+! 1001	Database LandXML: Survey.FieldNote collection
+! 1002	Database LandXML:CoordinateSystem.element
+! 1003	Database LandXML:CoordinateSystem.Start element
+! 1004	Database LandXML: CoordinateSystem.FieldNote collection
+! 3001	Network LandXML: SurveyHeader.Annotation collecton
+! 3002	Network LandXML: SurveyHeader.AdministrativeArea collection
+! 3003	Network LandXML: SurveyHeader.AdministrativeDate collection
+! 3004	Network LandXML: SurveyHeader.MapPoint collection
+! 3005	Network LandXML: SurveyHeader.Personnel collection
+! 3006	Network LandXML: SurveyHeader.SurveyorCertificate collection
+! 3007	Network LandXML: SurveyHeader.PurposeOfSurvey collection
+! 3008	Network LandXML: SurveyHeader.FieldNote collection
+! 3009	Network LandXML: SurveyHeader.CoordinateSystem element
+! 3010	Network LandXML: SurveyHeader.CoordinateSystem.Start element
+! 3011	Network LandXML: SurveyHeader.CoordinateSystem.FieldNote collection
+! 3012	Network LandXML: SurveyHeader.HeadOfPower collection
+! 5001	Figure LandXML: Parcel.Title collection
+! 5002	Figure LandXML: Parcel.Exclusions collection
+! 5003	Figure LandXML: Parcel.LocationAddress collection
+! 5004	Figure LandXML: Parcel.Center element
+!	
+! The second parameter is the data type of the extended property definition.	
+! It may be one of these values:	
+! 1	Angle
+! 2	Area
+! 3	Azimuth
+! 4	Boolean
+! 5	Coordinate
+! 6	Dimension
+! 7	Direction
+! 8	Distance
+! 9	Double
+! 10	Elevation
+! 11	Grade
+! 12	Slope
+! 13	Integer
+! 14	Latitude
+! 15	Longitude
+! 16	Percent
+! 17	Station
+! 18	String
+! 19	Volume
+! 20	Collection Display Name
+!	
+! The third parameter is the extended property name.	
+! The fourth parameter is the display name for localization.  This is a required token.  Use a period to default to the extended property name (third parameter).	
+! The fifth parameter if the extended property description.  This is a required token, but to indicate an empty string use a period."	
+! The sixth parameter is the required flag.  It may be 0 or 1 to indicate Not-Required or Required							
+! The seventh parameter is the displayed flag.  It may be 0 or 1 to indicate whether it should be displayed in the Survey User-Interface or not.							
+! The remaining parameters are used only for definitions that are strings, and are displayed through the Survey User-Interface.  They are not required."							
+! Each string should continue to be delimited by tabs within this file.							
+!							
+! Class	Type	XML Name (Global)  Display Name (Local)	Description	Required	Displayed	Strings

@@ -1,0 +1,15 @@
+;-------------------------------------------------------------------------------
+; Survey Storm Drain.def
+;-------------------------------------------------------------------------------
+"STRM_AINL_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_ARRW_E","V-DRAN-SYMB","User selects","1","0","0"
+"STRM_CINL_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_CLIP_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_COUT_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_COVR_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_GINL_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_HEAD_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_MANH_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_MRKR_E","V-NODE-STRM","User selects","1","0","0"
+"STRM_VALT_E","V-STRM-SYMB","User selects","1","0","0"
+"STRM_WNGW_E","V-STRM-SYMB","User selects","1","0","0"

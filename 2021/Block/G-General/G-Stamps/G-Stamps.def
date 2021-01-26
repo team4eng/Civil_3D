@@ -1,0 +1,8 @@
+;------------------------------------------------------------------------------- 
+; G-Stamps.def
+;-------------------------------------------------------------------------------
+"ANNO_DRFT","G-ANNO-TTBL-TEXT","User selects","1","0","0"
+"ANNO_SEAL","G-ANNO-TTBL-TEXT","User selects","1","0","0"
+"ANNO_TXPE","G-ANNO-TTBL-TEXT","User selects","1","0","0"
+"ANNO_STMP","G-ANNO-TTBL-TEXT","User selects","1","0","0"
+"ANNO_STCK","G-ANNO-TTBL-TEXT","User selects","1","0","0"

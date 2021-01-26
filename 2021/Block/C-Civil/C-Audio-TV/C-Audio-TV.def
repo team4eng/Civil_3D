@@ -1,0 +1,7 @@
+;------------------------------------------------------------------------------- 
+; Civil Audio TV.def 
+;-------------------------------------------------------------------------------
+"CATV_CLIP_P","C-CATV-SYMB","User selects","1","0","0"
+"CATV_JBOX_P","C-CATV-SYMB","User selects","1","0","0"
+"CATV_MANH_P","C-CATV-SYMB","User selects","1","0","0"
+"CATV_VALT_P","C-CATV-SYMB","User selects","1","0","0"

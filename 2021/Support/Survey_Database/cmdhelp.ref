@@ -1,0 +1,165 @@
+Point Creation Commands:
+  AD (point) [angle] [distance] (descript)
+  AD [VA] (point) [angle] [distance] [vert angle] (descript)
+  AD [VD] (point) [angle] [distance] [vert distance] (descript)
+  AP ON (point)
+  AP OFF
+  BD (point) [bearing] [quadrant] [distance] (descript)
+  BD [VA] (point) [bearing] [quadrant] [distance] [vert angle] (descript)
+  BD [VD] (point) [bearing] [quadrant] [distance] [vert dist] (descript)
+  DD (point) [angle] [distance] [vert angle] (descript)
+  DD [VA] (point) [angle] [distance] [vert angle] (descript)
+  DD [VD] (point) [angle] [distance] [vert distance] (descript)
+  F1/F2 (point) [angle] [distance] (descript)
+  F1/F2 [VA] (point) [angle] [distance] [vert angle] (descript)
+  F1/F2 [VD] (point) [angle] [distance] [vert distance]  (descript)
+  LAT LONG (point) [latitude] [longitude] (elev) (descript)
+  NE (point) [North] [East] (descript)
+  NEZ (point) [North] [East] (elev) (descript)
+  NE SS (point) [North] [East] (elev) (descript)
+  PRISM [height]
+  PT OFFSET (point) [offset] (ahead)
+  SKIP
+  STADIA (point) [angle] [distance] [rod] (vert angle) (descript)
+  ZD (point) [azimuth] [distance] (descript)
+  ZD [VA] (point) [azimuth] [distance] [vert angle] (descript)
+  ZD [VD] (point) [azimuth] [distance] [vert distance] (descript)
+
+Point Location Commands:
+  AZ [point 1] [point 2] [azimuth]
+  B [point1] [point2] [bearing] [quadrant]
+  BS [point] (orientation)
+  STN [point] (inst. height) (descript)
+
+Point Information Commands:
+  A [point 1] [point 2] [point 3]
+  AZ [point 1] [point 2]
+  B [point 1] [point 2]
+  D [point 1] [point 2]
+  DISP PTS (point 1) (point 2)
+  GRADE [point 1] [point 2]
+  INV PTS [point 1] [point 2]
+  INVERSE RADIAL [backsight] [station]
+  SLOPE [point 1] [point 2]
+  SD [point 1] [point 2]
+  VD [point 1] [point 2]
+
+Point Editing Commands:
+  DEL PTS [point 1] (point 2)
+  MOD DESC [point 1] [descript]
+  MOD EL [point 1] [elev]
+  MOD ELS [point 1] [point 2] [elev]
+  MOD ELS BY [point 1] [point 2] [amount]
+
+Figure Commands:
+  AREA [figure]
+  BEG [figure]
+  C3
+  CLOSE
+  CLOSE BLD
+  CLOSE RECT [offset]
+  CONT [figure]
+  CRV [DELTA, LENGTH, DEFL, MID, TAN, CHORD] [radius] [value]
+  END
+  FIG AD [angle]      [distance]
+  FIG DD [deflection] [distance]
+  FIG ZD [azimuth]    [distance]
+  FIG BD [bearing]    [quadrant] [distance]
+  FIG NE [Northing]   [Easting]
+  ID FIG
+  INVERSE FIG [figure]
+  MAPCHECK [figure]
+  OFFSET [figure] [distance]
+  PC
+  POINT [point]
+  RT [distance]
+  SET (point)
+  START [figure]
+  XC ZD (BULB) [radius] [chord-az] [chord-dis]
+  XC BD (BULB) [radius] [chord-brg] [quad] [chord-dis]
+  XC AD (BULB) [radius] [chord-angle] [chord-dis]
+  XC DD (BULB) [radius] [chord-defl] [chord-dis]
+  XC C3  [pt on curve] [endpt]
+  XC PTS [radius] [radpt] [endpt]
+  MCS
+  MCE
+
+Intersection Commands:
+  AZAZ [pnt 1] [az 1] [off 1] [pt 2] [az 2] [off 2]
+  BB [pnt 1] [brg 1] [quad 1] [off 1] [pnt 2] [brg 2] [quad 2] [off 2]
+  LNLN [pnt 1] [pnt 2] [off 1] [pnt 3] [pnt 4] [off 2]
+  RKAZ [point] [radius] [pnt 1] [azimuth] [offset]
+  RKBRG [point] [radius] [pnt 1] [brg] [quad] [offset]
+  RKLN [point] [radius] [pnt 1] [pnt 2] [offset]
+  RKRK [pnt 1] [radius 1] [pnt 2] [radius 2]
+  SAVE [NORTH, SOUTH, EAST, WEST, 1, 2, ALL] (point) (descript)
+  SAVE [NEAR, FAR] (point) [ref pt#] (descript)
+  SAVE PICK (point) (descript)
+  SQ [ref 1] [ref 2] [ref]
+
+Figure Correction and Manipulation Commands:
+  DEL FIG [fig]
+  DISP FIGS
+
+Equipment Correction Commands:
+  ANGLES [RIGHT, LEFT] [ZENITH, NADIR, HORIZ]
+  ATMOS [ON, OFF]
+  COLL [ON, OFF]
+  CR [ON, OFF]
+  EDM OFFSET  [offset]
+  HORIZ ANGLE [RIGHT, LEFT]
+  PRESS [pressure] [INCH, MBAR, MM]
+  SF [factor]
+  PRISM CONSTANT  [constant]
+  PRISM OFFSET  [offset]
+  TEMP [temperature] [F, C, K]
+  UNITS [METER, FOOT] [DMS, DECDEG, GRAD, MILS, RADIANS]
+  VERT ANGLE [ZENITH, NADIR, HORIZ]
+
+Baseline Commands:
+  BL IS [point 1] [point 2] [station]
+  BL PT (point 1) [station] (offset) (descript)
+  BL INV [point 1] (point 2)
+
+Centerline Commands:
+  CL IS [figure] (station) (point)
+  CL INV [point 1] (point 2)
+  CL PT (point) [station] (offset) (skew angle) (descript)
+  CL PT BY [point] [station 1] [offset] [distance] (station 2) (descript)
+  CL ELEV (point) [station] [offset] [elev] (descript)
+  CL ROD (point) [station] [offset] [rod] (descript)
+  CL VD (point) [station] [offset] [vert distance] (descript)
+  HI [elev]
+  XS [station]
+  XS ELEV (point) [offset] [elev] (descript)
+  XS ROD (point) [offset] [rod] (descript)
+  XS VD (point) [offset] [vert distance] (descript)
+
+AutoCAD Related Commands:
+  PAN
+  REDRAW
+  ZOOM PT [point]
+  ZOOM [WINDOW, EXTENTS, PREVIOUS, W, P, E, A]
+
+Miscellaneous Commands:
+  CALC [formula]
+  DITTO [ON, OFF]
+  HELP (command)
+  HISTORY
+  OUTPUT [ON, OFF]
+  TRAV [ON, OFF]
+
+Unit Conversions for Distance:
+  Unit         Symbol  Equation
+  -----------  ------  -------------------------------
+  Inches       "
+  Feet         '       1 ft    = 12 inches
+  Yards        Y       1 yd.   = 3 ft
+  Rods         R       1 rod   = 16.5 ft
+  Chains       C       1 chain = 66 ft
+  Links        L       1 link  = 1/100 chain = 0.66 ft
+  Meters       M       1 ft    = 0.3048 meters
+  Millimeters  MM      1 mm    = 1/1000 m
+  Centimeters  CM      1 cm    = 1/100 m
+  Kilometers   KM      1 km    = 1000 m
+

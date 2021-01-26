@@ -1,0 +1,14 @@
+;------------------------------------------------------------------------------- 
+; Traffic.def 
+;-------------------------------------------------------------------------------
+;------------------------------------------------------------------------------- 
+; Custom
+;-------------------------------------------------------------------------------
+"SIGN_CW-BikeLaneClosed","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_CW-ConstEntranceAhead","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_CW-ShareTheRoad","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_CW-YieldToBikes","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_D-BusinessAccess","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_R-DoNotBlockTheBox","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_R-PHBCrossWalk","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W-WatchWater","C-TRAF-CTRL-SYMB","User selects","1","0","0"

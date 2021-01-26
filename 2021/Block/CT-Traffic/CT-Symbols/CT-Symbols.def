@@ -1,0 +1,19 @@
+;------------------------------------------------------------------------------- 
+; Traffic.def 
+;-------------------------------------------------------------------------------
+
+;------------------------------------------------------------------------------- 
+; Symbols
+;-------------------------------------------------------------------------------
+
+"SIGN_AWBD","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_BRT1","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_BRT2","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_BRT3","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_CONE","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_DTRA","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_DTRP","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_FLAG","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_MGBD","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_POST","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_WTRB","C-TRAF-CTRL-SYMB","User selects","1","0","0"

@@ -1,0 +1,11 @@
+;------------------------------------------------------------------------------- 
+; Civil Natural Gas.def 
+;-------------------------------------------------------------------------------
+"NGAS_CLIP_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_LGHT_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_MANH_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_METR_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_SCON_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VALT_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VALV_P","C-NGAS-SYMB","User selects","1","0","0"
+"NGAS_VENT_P","C-NGAS-SYMB","User selects","1","0","0"

@@ -1,0 +1,9 @@
+;------------------------------------------------------------------------------- 
+; Civil Misc.def 
+;-------------------------------------------------------------------------------
+"GRID_AHLP","C-NPLT-DSGN","User selects","1","0","0"
+"UTIL_BNDV","C-NPLT-DSGN","User selects","1","0","0"
+"UTIL_DFLH","C-NPLT-DSGN","User selects","1","0","0"
+"UTIL_DFLV","C-NPLT-DSGN","User selects","1","0","0"
+
+

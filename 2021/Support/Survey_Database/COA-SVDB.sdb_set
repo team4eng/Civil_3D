@@ -1,0 +1,58 @@
+SvUiSettingsType	AeccSvProjectSettings
+SvZone	TX83-CF
+SvDistanceUnit	US Foot
+SvAngleUnit	Degrees DMS (DDD.MMSSS)
+SvDirectionUnit	Bearings
+SvTemperatureUnit	Fahrenheit
+SvPressureUnit	Inches Hg
+SvAnglePrecision	4
+SvLinearPrecision	3
+SvElevationPrecision	3
+SvCoordinatePrecision	4
+SvLatLongPrecision	8
+SvAngleType	Angle
+SvDistanceType	Slope
+SvVerticalType	Vertical Angle
+SvTargetType	Prism
+SvCurvAndRefractCorrection	No
+SvSeaLevelCorrection	No
+SvAtmosphericConditionsCorrection	No
+SvHorizontalCollimationCorrection	No
+SvVerticalCollimationCorrection	No
+SvScaleFactorCorrection	No
+SvEDMPrismEccentricityCorrection	No
+SvDoTraverseAnalysis	Yes
+SvBalanceAngles	Yes
+SvHorizontalAdjustmentMethod	Compass rule
+SvVerticalAdjustmentMethod	Length weighted distribution
+SvHorizontalClosureLimit	15000.00000000
+SvVerticalClosureLimit	15000.00000000
+SvAngleError	0.00002424
+SvNetworkAdjustmentType	3-Dimensional
+SvMaxNumberOfIterations	8
+SvCoordinateConvergence	0.01000000
+SvConfidenceInterval	95% confidence
+SvPerformBlunderDetection	Yes
+SvDittoFeature	Yes
+SvAutoPointNumbering	No
+SvAutoPointStartNumber	1
+SvPointCourseEcho	Yes
+SvFigureCourseEcho	Yes
+SvPointCoordinateEcho	Yes
+SvFigureCoordinateEcho	Yes
+SvUseBatchFile	Yes
+SvBatchFileName	Batch.txt
+SvUseOutputFile	Yes
+SvOutputFileName	Output.txt
+SvCommandEcho	Yes
+SvOverwriteStatus	Average all
+SvUseDistanceDifference	No
+SvDistanceDifference	0.15240000
+SvUseAngularDifference	No
+SvAngularDifference	0.00007272
+SvUseElevationDifference	No
+SvElevationDifference	0.15240000
+SvUseCoordinateDifference	No
+SvCoordinateDifference	0.15240000
+SvAutoCreateNewDefinitions	No
+SvWarnForMissingProperties	No

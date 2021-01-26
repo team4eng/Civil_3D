@@ -1,0 +1,17 @@
+;------------------------------------------------------------------------------- 
+; Civil Electric.def 
+;-------------------------------------------------------------------------------
+"ELEC_CABN_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_CLIP_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_DGUY_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_HAND_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_JBOX_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGHT_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGTB_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_LGTE_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_MANH_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_METR_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_PBOX_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_POLE_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_TOWR_P","C-ELEC-SYMB","User selects","1","0","0"
+"ELEC_VALT_P","C-ELEC-SYMB","User selects","1","0","0"

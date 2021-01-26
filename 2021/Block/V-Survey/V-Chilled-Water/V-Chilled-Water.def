@@ -1,0 +1,8 @@
+;-------------------------------------------------------------------------------
+; Survey Chilled Water.def
+;-------------------------------------------------------------------------------
+"CWTR_CLIP_E","V-CWTR-SYMB","User selects","1","0","0"
+"CWTR_MANH_E","V-CWTR-SYMB","User selects","1","0","0"
+"CWTR_MRKR_E","V-NODE-CWTR","User selects","1","0","0"
+"CWTR_VALT_E","V-CWTR-SYMB","User selects","1","0","0"
+"CWTR_VALV_E","V-CWTR-SYMB","User selects","1","0","0"

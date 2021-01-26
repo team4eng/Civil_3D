@@ -1,0 +1,22 @@
+;------------------------------------------------------------------------------- 
+; Traffic.def 
+;-------------------------------------------------------------------------------
+
+;------------------------------------------------------------------------------- 
+; Travel Direction
+;-------------------------------------------------------------------------------
+
+"SIGN_ARRW_LT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_LT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_RT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_RT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_UT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_UT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_LT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_LT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_RT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_RT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_LT_RT_E","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_ARRW_ST_LT_RT_P","C-TRAF-CTRL-SYMB","User selects","1","0","0"

@@ -1,0 +1,13 @@
+;-------------------------------------------------------------------------------
+; Survey Traffic Signal.def
+;-------------------------------------------------------------------------------
+"TRAF_CBOX_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_CLIP_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_LGHT_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_MANH_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_MRKR_E","V-NODE-TRAF","User selects","1","0","0"
+"TRAF_PBOX_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_PEDS_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_SGNE_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_SIGN_E","V-TRAF-SYMB","User selects","1","0","0"
+"TRAF_VALT_E","V-TRAF-SYMB","User selects","1","0","0"

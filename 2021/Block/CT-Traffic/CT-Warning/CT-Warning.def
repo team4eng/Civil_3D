@@ -1,0 +1,42 @@
+;------------------------------------------------------------------------------- 
+; Traffic.def 
+;-------------------------------------------------------------------------------
+
+;------------------------------------------------------------------------------- 
+; Warning
+;-------------------------------------------------------------------------------
+
+"SIGN_W1-1L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-1R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-2L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-2R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-3L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-3R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-4L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-4R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-5L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-5R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-11L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-11R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W1-11T","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W2-1","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W2-6","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W4-2L","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W4-2R","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W5-1","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W5-2","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W7-5","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W8-1","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W8-2","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-1","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-2","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-9","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-11","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-15","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-15a","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W11-15P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W16-1P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W16-7PL","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W16-7PR","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W16-9P","C-TRAF-CTRL-SYMB","User selects","1","0","0"
+"SIGN_W17-1D","C-TRAF-CTRL-SYMB","User selects","1","0","0"

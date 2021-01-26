@@ -1,0 +1,21 @@
+;-------------------------------------------------------------------------------
+; Survey WasteWater.def
+;-------------------------------------------------------------------------------
+"WWTR_ARV_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_BFPV_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_CAP_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_CLIP_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_COUT_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_FMTR_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_LSTA_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_MANH_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_MATC_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_METR_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_MRKR_E","V-NODE_WWTR","User selects","1","0","0"
+"WWTR_PLUG_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_PRJS_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_REDC_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_SCON_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_VALT_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_VALV_E","V-WWTR-SYMB","User selects","1","0","0"
+"WWTR_VENT_E","V-WWTR-SYMB","User selects","1","0","0"

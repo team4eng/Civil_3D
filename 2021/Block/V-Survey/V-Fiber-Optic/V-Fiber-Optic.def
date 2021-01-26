@@ -1,0 +1,8 @@
+;-------------------------------------------------------------------------------
+; Survey Fiber Optic.def
+;-------------------------------------------------------------------------------
+"FIBR_CLIP_E","V-FIBR-SYMB","User selects","1","0","0"
+"FIBR_JBOX_E","V-FIBR-SYMB","User selects","1","0","0"
+"FIBR_MANH_E","V-FIBR-SYMB","User selects","1","0","0"
+"FIBR_MRKR_E","V-NODE-FIBR","User selects","1","0","0"
+"FIBR_VALT_E","V-FIBR-SYMB","User selects","1","0","0"

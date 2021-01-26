@@ -1,0 +1,21 @@
+;-------------------------------------------------------------------------------
+; Survey Site.def
+;-------------------------------------------------------------------------------
+"PLNT_LGHT_E","V-PLNT-SYMB","User selects","1","0","0"
+"PLNT_SHRB_E","V-PLNT-SYMB","User selects","1","0","0"
+"PLNT_TREE_E","V-PLNT-TREE","User selects","1","0","0"
+"PLNT_TREH_E","V-PLNT-TREE","User selects","1","0","0"
+"RAIL_SIGN_E","V-RAIL-SYMB","User selects","1","0","0"
+"SITE_BKRK_E","V-SITE-SYMB","User selects","1","0","0"
+"SITE_BLRD_E","V-SITE-BLRD","User selects","1","0","0"
+"SITE_BNCH_E","V-SITE-SYMB","User selects","1","0","0"
+"SITE_BUS_E","V-SITE-BUSW-SYMB","User selects","1","0","0"
+"SITE_GCAN_E","V-SITE-SYMB","User selects","1","0","0"
+"SITE_GRPT_E","V-GRAL-SYMB","User selects","1","0","0"
+"SITE_MAIL_E","V-SITE-SYMB","User selects","1","0","0"
+"SITE_MANH_E","V-SITE-MISC-SYMB","User selects","1","0","0"
+"SITE_PIPE_E","V-SITE-MISC-SYMB","User selects","1","0","0"
+"SITE_PMTR_E","V-PRKG-SYMB","User selects","1","0","0"
+"SITE_POST_E","V-SITE-SYMB","User selects","1","0","0"
+"SITE_SIGN_E","V-SIGN-SYMB","User selects","1","0","0"
+"SITE_VALT_E","V-SITE-MISC-SYMB","User selects","1","0","0"

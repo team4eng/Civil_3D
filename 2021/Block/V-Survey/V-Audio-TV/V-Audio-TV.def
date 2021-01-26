@@ -1,0 +1,8 @@
+;-------------------------------------------------------------------------------
+; Survey Audio TV.def
+;-------------------------------------------------------------------------------
+"CATV_CLIP_E","V-CATV-SYMB","User selects","1","0","0"
+"CATV_JBOX_E","V-CATV-SYMB","User selects","1","0","0"
+"CATV_MANH_E","V-CATV-SYMB","User selects","1","0","0"
+"CATV_MRKR_E","V-NODE-CATV","User selects","1","0","0"
+"CATV_VALT_E","V-CATV-SYMB","User selects","1","0","0"

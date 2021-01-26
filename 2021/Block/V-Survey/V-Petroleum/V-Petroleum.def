@@ -1,0 +1,7 @@
+;-------------------------------------------------------------------------------
+; Survey Petroleum.def
+;-------------------------------------------------------------------------------
+"PETR_CLIP_E","V-PETR-SYMB","User selects","1","0","0"
+"PETR_METR_E","V-PETR-SYMB","User selects","1","0","0"
+"PETR_MRKR_E","V-NODE-PETR","User selects","1","0","0"
+"PETR_VALV_E","V-PETR-SYMB","User selects","1","0","0"

@@ -1,0 +1,8 @@
+;------------------------------------------------------------------------------- 
+; Civil Reclaimed Water.def 
+;-------------------------------------------------------------------------------
+"NPWR_CLIP_P","C-NPWR-SYMB","User selects","1","0","0"
+"NPWR_MANH_P","C-NPWR-SYMB","User selects","1","0","0"
+"NPWR_METR_P","C-NPWR-SYMB","User selects","1","0","0"
+"NPWR_VALT_P","C-NPWR-SYMB","User selects","1","0","0"
+"NPWR_VALV_P","C-NPWR-SYMB","User selects","1","0","0"

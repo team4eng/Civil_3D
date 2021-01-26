@@ -1,0 +1,981 @@
+;****	File: COA_ESD.LIN
+;****	
+;****	CITY OF AUSTIN - ENGINEERING SERVICES DIVISION
+;****	PUBLIC WORKS DEPARTMENT
+;****	February, 2014	
+;****
+;****	These line styles are based on:
+;****	National CAD Standards 4.0
+;****	A/E/C CADD Standards Release 3.0
+;****	Custom ESD line styles.
+;****
+
+;****
+;****----------------------------------------------------------------
+;****	Legacy
+;****----------------------------------------------------------------
+;****
+
+*BNDY,Border Line __ __ . __ __ . __ __ . __ __ . __ __ .
+A,.5,-.25,.5,-.25,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.25
+*BNDY-2,Border Line (.5x) __.__.__.__.__.__.__.__.__.__.__.
+A,.25,-.125,.25,-.125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.125
+*BNDY-X2,Border Line (2x) ____  ____  .  ____  ____  .  ___
+A,1.0,-.5,1.0,-.5,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.5
+
+*CNTR,Center ____ _ ____ _ ____ _ ____ _ ____ _ ____
+A,1.25,-.25,.25,-.25
+*CNTR-2,Center (.5x) ___ _ ___ _ ___ _ ___ _ ___ _ ___
+A,.75,-.125,.125,-.125
+*CNTR-3,___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _ ___ _
+A,0.375,-0.0625,0.0625,-0.0625
+*CNTR-4,__ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __ _ __
+A,0.1875,-0.03125,0.03125,-0.03125
+*CNTR-X2,Center (2x) ________  __  ________  __  _____
+A,2.5,-.5,.5,-.5
+
+*DDOT,Dash dot __ . __ . __ . __ . __ . __ . __ . __
+A,0.5,-.25,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.25
+*DDOT-2,Dash dot (.5x) _._._._._._._._._._._._._._._.
+A,.25,-.125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.125
+*DDOT-3,Dash dot (.25x)-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+A,0.125,-0.0625,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.0625
+*DDOT-4,Dash dot (.100x)-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+A,0.0625,-0.03125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.03125
+*DDOT-X2,Dash dot (2x) ____  .  ____  .  ____  .  ___
+A,1.0,-.5,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.5
+
+*DDDT,Dash dot dot __ . __ . __ . __ . __ . __ . __ . __
+A,.5,-.25,["\U+25CF",COA_Existing,x=-.03,y=-.03,s=.03],-.25,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.25
+*DDDT-2,Dash dot dot (.5x) _._._._._._._._._._._._._._._.
+A,.25,-.125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.125
+*DDDT-3,Dash dot dot (.25x)-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+A,0.125,-0.0625,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.0625,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.0625
+*DDDT-4,Dash dot dot (.100x)-.-.-.-.-.-.-.-.-.-.-.-.-.-.-.-
+A,0.0625,-0.03125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.03125,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.03125
+*DDDT-X2,Dash dot dot (2x) ____  .  ____  .  ____  .  ___
+A,1.0,-.5,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.5,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.5
+
+*DSHD,Dashed __ __ __ __ __ __ __ __ __ __ __ __ __ _
+A,.5,-.25
+*DSHD-2,Dashed (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.25,-.125
+*DSHD-3,Dashed (.25X)----------------------------------
+A,0.125,-0.0625
+*DSHD-4,Dashed (.100X)----------------------------------
+A,0.0625,-0.03125
+*DSHD-5,Dashed (.100X)----------------------------------
+A,0.03125,-0.015625
+*DSHD-X2,Dashed (2x) ____  ____  ____  ____  ____  ___
+A,1.0,-.5
+
+*DOT,Dot . . . . . . . . . . . . . . . . . . . . . . . .
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.25
+*DOT-2,Dot (.5x) ........................................
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.125
+*DOT-3,...............................................
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.0625
+*DOT-4,...............................................
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.03125
+*DOT-5,...............................................
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-0.015625
+*DOT-X2,Dot (2x) .  .  .  .  .  .  .  .  .  .  .  .  .  .
+A,0.0001,["\U+25CF",COA_Existing,x=-.0175,y=-.0175,s=.025],-.5
+
+*HIDN,Hidden __ __ __ __ __ __ __ __ __ __ __ __ __ __
+A,.25,-.05
+*HIDN-2,Hidden (.5x) _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.125,-.05
+*HIDN-3,_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+A,0.0625,-.05
+*HIDN-4,- - - - - - - - - - - - - - - - - - - - - - - -
+A,0.03125,-.05
+*HIDN-X2,Hidden (2x) ____ ____ ____ ____ ____ ____ ____ 
+A,.5,-.1
+
+*PHNT,Phantom ______  __  __  ______  __  __  ______ 
+A,1.25,-.25,.25,-.25,.25,-.25
+*PHNT-2,Phantom (.5x) ___ _ _ ___ _ _ ___ _ _ ___ _ _
+A,.625,-.125,.125,-.125,.125,-.125
+*PHNT-3,___ _ _ ___ _ _ ___ _ _ ___ _ _ ___ _ _ ___ _ _
+A,0.3125,-0.0625,0.0625,-0.0625,0.0625,-0.0625
+*PHNT-4,__ _ _ __ _ _ __ _ _ __ _ _ __ _ _ __ _ _ __ _ 
+A,0.15625,-0.03125,0.03125,-0.03125,0.03125,-0.03125
+*PHNT-X2,Phantom (2x) ____________    ____    ____   _
+A,2.5,-.5,.5,-.5,.5,-.5
+
+;****
+;****----------------------------------------------------------------
+;****	Boundary & Control
+;****----------------------------------------------------------------
+;****
+
+*BLIN,Baseline Line ___ _ ___ BL ___ _ ___ BL ___ _ ___
+A,.75,-.125,.125,-.125,.75,["B",COA_Existing,s=.05,X=0.025,Y=-0.05],0,["L",COA_Existing,s=.05,X=0.055,Y=-0.085],-.15
+
+*BLIN-CNTR,Baseline Center ___ _ ___ CL ___ _ ___ CL ___ _ ___
+A,.75,-.125,.125,-.125,.75,["C",COA_Existing,S=0.05,X=0.025,Y=-0.05],0,["L",COA_Existing,S=0.05,X=0.055,Y=-0.085],-.15
+
+*ESMT,Easement
+A,1.25,-0.11,0.05,-0.11,0.05,-0.11,0.05,-0.11,0.05,-0.11
+
+*PROP,Property Line
+A,1.25,-.1125,.1,-.1125,.1,-.1125,.1,-.1125
+
+*RWAY,Right-Of-Way
+A,1.25,-.15,.15,-.15,.15,-.15
+
+;****
+;****----------------------------------------------------------------
+;****	Site
+;****----------------------------------------------------------------
+;****
+
+*BLDG,Building Line
+A,0.15,[bldg,coa_esd,s=.1,y=0.015,x=0,R=90],0
+
+*BLDG-DEMO,Building Line Demolition
+A,0.15,-0.125,[bldg,coa_esd,s=.1,y=0.015,x=-.11,R=90],0.0001,[bldg,coa_esd,s=.1,y=0.015,x=.01,R=90],0
+
+*DEMO,Demolition Line
+A,.15,-.125
+
+*FENC-BWIR,Barbwire Fence
+A,0.45,["X",COA_Line,S=0.1,X=0.015,Y=-0.05],-0.1,0.45
+
+*FENC-BWIR-DEMO,Barbwire Fence Demolition
+A,.15,-.125,.125,["X",COA_Line,S=0.1,X=0.015,Y=-0.05],-0.1,.125,-.125,.15,-.125
+
+*FENC-CLNK,Chain Link Fence
+A,0.45,[CIRCLE,COA_ESD,x=0,s=.05],-0.1,0.45
+
+*FENC-CLNK-DEMO,Chain Link Fence Demolition
+A,.15,-.125,.125,[CIRCLE,COA_ESD,x=0,s=.05],-0.1,.125,-.125,.15,-.125
+
+*FENC-HDTY,Heavy Duty Fence
+A,0.45,[box,coa_esd,r=0,x=0.02,S=0.03,y=0],-0.1,[box,coa_esd,r=0,x=-0.1,S=0.05,y=0],0.45
+
+*FENC-HDTY-DEMO,Heavy Duty Fence Demolition
+A,.15,-.125,.125,[box,coa_esd,r=0,x=0.02,S=0.03,y=0],-0.1,[box,coa_esd,r=0,x=-0.1,S=0.05,y=0],.125,-.125,.15,-.125
+
+*FENC-LDTY,Light Duty Fence
+A,0.45,[circle,coa_esd,S=0.03,x=0.02],-0.1,[circle,coa_esd,S=0.05,x=-0.1],0.45
+
+*FENC-LDTY-DEMO,Light Duty Fence Demolition
+A,.15,-.125,.125,[circle,coa_esd,S=0.03,x=0.02],-0.1,[circle,coa_esd,S=0.05,x=-0.1],.125,-.125,.15,-.125
+
+*FENC-STEL,Steel Fence
+A,0.45,[box,coa_esd,r=0,x=0,S=0.05,y=0],-0.1,0.45
+
+*FENC-STEL-DEMO,Steel Fence Demolition
+A,.15,-.125,.125,[box,coa_esd,r=0,x=0,S=0.05,y=0],-0.1,.125,-.125,.15,-.125
+
+*FENC-WOOD,Wood Fence
+A,0.45,["//",COA_Line,S=0.08,X=-0.03,Y=-0.04],-0.1,0.45
+
+*FENC-WOOD-DEMO,Wood Fence Demolition
+A,.15,-.125,.125,["//",COA_Line,S=0.08,X=-0.03,Y=-0.04],-0.1,.125,-.125,.15,-.125
+
+*GRAL,Guardrail
+A,0.45,[CIRCLE,coa_esd,s=.035,x=0,R=270],0.45
+
+*GRAL-DEMO,Guardrail Demolition
+A,.15,-.125,.125,[CIRCLE,coa_esd,s=.035,r=270,x=0.0],.125,-.125,.15,-.125
+
+*GRND,Ground (Profile view)
+A,0.1,[EARTH,COA_ESD,S=0.1,x=-0.05],0
+
+*PVMT,Edge of Pavement
+A,1.25,[edge,coa_esd,s=.1,R=180],0
+
+*PVMT-DEMO,Edge of Pavement Demo
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,[edge,coa_esd,s=.1,R=180],0
+
+*RAIL,Rail Road Track
+A,0.0001,["I",COA_Line,S=0.3,X=0,Y=-0.15],0.0001,["I",COA_Line,S=0.20,X=0.20,Y=-0.1,R=90],0.0001,["I",COA_Line,S=0.20,X=0.20,Y=0.1,R=90],-0.20
+
+*RAIL-DEMO,Rail Road Track Demo
+A,0.0001,["I",COA_Line,S=0.3,X=0,Y=-0.15],0.0001,["I",COA_Line,S=0.1,X=.15,Y=-0.1,R=90],0.0001,["I",COA_Line,S=0.1,X=.15,Y=0.1,R=90],-0.20
+
+*RAIL-FEAT,General Rail
+A,0.45,[CIRCLE,COA_ESD,x=0,s=.035],-0.07
+
+*RAIL-FEAT-DEMO,General Rail Demolition
+A,.075,-.125,.025,[CIRCLE,COA_ESD,x=0,s=.035],-0.07,0.025,-.125,.075
+
+*TRLN,Tree Line
+A,0.0001,[TREE,coa_esd,s=.12,x=0.12],-.24
+
+*SHLN,Shrub Line
+A,0.0001,[TREE,coa_esd,s=.025,x=0.025],-.05
+
+*WALL-BRCK,Brick Wall
+A,0.0001,[brick,coa_esd,y=-0.04375,s=.05],-.20
+
+*WALL-STON,Stone Wall
+A,0.0001,[STONE,coa_esd,s=1,x=0.06],-.125
+
+;****
+;****----------------------------------------------------------------
+;****	Erosion Control
+;****----------------------------------------------------------------
+;****
+
+*EROS-BERM,Rock Berm
+A,0.05,-0.05,0.05,-0.05,0.05,["RB",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*EROS-INPR,Inlet Protection
+A,0.05,-0.05,0.05,-0.05,0.05,["IP",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.25
+
+*EROS-LOCN,Limits of Construction
+A,1.25,["LOC",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*EROS-MLCH,Mulch Sock
+A,0.05,-0.05,0.05,-0.05,0.05,["MS",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*EROS-SILT,Silt Fence
+A,0.05,-0.05,0.05,-0.05,0.05,["SF",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*EROS-SILT-LOCN,Silt Fence LOCN
+A,0.05,-0.05,0.05,-0.05,0.05,["SF/LOC",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.675
+
+*EROS-TFDK,Triangular Filter Dike
+A,0.05,-0.05,0.05,-0.05,0.05,["TFD",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*EROS-TRPR,Tree Protection
+A,0.25,[CIRCLE,COA_ESD,S=0.05],-0.1
+
+*EROS-TRPR-TEMP,Tree Protection Temporary
+A,0.05,-0.05,0.05,-0.05,0.05,[CIRCLE,COA_ESD,S=0.05],-0.1
+
+*EROS-PH01,Phase 1 Staging
+A,0.05,-0.05,0.05,-0.05,0.05,["PH1",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*EROS-PH02,Phase 2 Staging
+A,0.05,-0.05,0.05,-0.05,0.05,["PH2",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*EROS-PH03,Phase 3 Staging
+A,0.05,-0.05,0.05,-0.05,0.05,["PH3",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*EROS-PH04,Phase 4 Staging
+A,0.05,-0.05,0.05,-0.05,0.05,["PH4",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+;****
+;****----------------------------------------------------------------
+;****	Hydrology
+;****----------------------------------------------------------------
+;****
+
+*CWQZ-E,Critical Water Quality Zone Existing
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["CWQZ",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.45
+
+*CWQZ-P,Critical Water Quality Zone Proposed
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["CWQZ",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.575
+
+*DRNG-E,Drainage(Existing)
+A,1.25,["DR",COA_Existing,S=0.050,X=0.025,Y=-0.05],-0.25
+
+*DRNG-FLOW,Drainage Flow
+A,1.25,[">",COA_Line,S=0.1,X=0,Y=-0.0428],-.1,.075,-.05,.075,-.05,.075,-.05,.075,-.05
+
+*DRNG-P,Drainage(Proposed)
+A,1.25,["DR",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*EHAZ-E,Erosion Hazard Zone Existing
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["EHZ",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.275
+
+*EHAZ-P,Erosion Hazard Zone Proposed
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["EHZ",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.350
+
+*FLHA-025Y-E,Flood Plain (25-Year) Existing
+A,0.60,-0.05,0.6,["25Y",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.275
+
+*FLHA-025Y-P,Flood Plain (25-Year) Proposed
+A,0.60,-0.05,0.6,["25Y",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.35
+
+*FLHA-100Y-E,Flood Plain (100-Year) Existing
+A,0.60,-0.05,0.6,["100Y",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.35
+
+*FLHA-100Y-P,Flood Plain (100-Year) Proposed
+A,0.60,-0.05,0.6,["100Y",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.45
+
+*HGL-025Y,Hydraulic Grade Line (25-yr)
+A,0.60,-0.05,0.6,["H-25Y",COA_Existing,S=0.05,X=.025,Y=-.05],-.45
+
+*HGL-100Y,Hydraulic Grade Line (100-yr)
+A,0.60,-0.05,0.6,["H-100Y",COA_Existing,S=0.05,X=0.025,Y=-.05],-0.525
+
+*IMPV-002Y,Impervious Flood Plain (2-Year)
+A,0.60,-0.05,0.6,["I-2Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.275
+
+*IMPV-025Y,Impervious Flood Plain (25-Year)
+A,0.60,-0.05,0.6,["I-25Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.35
+
+*IMPV-100Y,Impervious Flood Plain (100-Year)
+A,0.60,-0.05,0.6,["I-100Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.425
+
+*PERV-002Y,Pervious Flood Plain (2-Year)
+A,0.60,-0.05,0.6,["P-2Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.325
+
+*PERV-025Y,Pervous Flood Plain (25-Year)
+A,0.60,-0.05,0.6,["P-25Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.40
+
+*PERV-100Y,Pervious Flood Plain (100-Year)
+A,0.60,-0.05,0.6,["P-100Y",COA_Existing,S=0.05,X=.025,Y=-0.05],-0.475
+
+*STBK-0050-E,Setback 50' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["50'",COA_Existing,S=0.05,X=0.025,Y=0.05],0
+
+*STBK-0050-P,Setback 50' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["50'",COA_Proposed,S=0.05,X=0.025,Y=0.05],0
+
+*STBK-0100-E,Setback 100' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["100'",COA_Existing,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0100-P,Setback 100' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["100'",COA_Proposed,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0150-E,Setback 150' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["150'",COA_Existing,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0150-P,Setback 150' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["150'",COA_Proposed,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0200-E,Setback 200' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["200'",COA_Existing,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0200-P,Setback 200' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["200'",COA_Proposed,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0250-E,Setback 250' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["250'",COA_Existing,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0250-P,Setback 250' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["250'",COA_Proposed,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0300-E,Setback 300' (Existing)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["300'",COA_Existing,S=0.05,X=0.01,Y=0.05],0
+
+*STBK-0300-P,Setback 300' (Proposed)
+A,.25,-.125,.25,-.125,.25,-.125,.25,-.125,["300'",COA_Proposed,S=0.05,X=0.01,Y=0.05],0
+
+*TOC-E,Time of Concentration (Existing)
+A,1.25,["TC",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*TOC-P,Time of Concentration (Proposed)
+A,1.25,["TC",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*WQTZ-E,Water Quality Transition Zone Existing
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["WQTZ",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.45
+
+*WQTZ-P,Water Quality Transition Zone Proposed
+A,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,-0.0625,0.20,["WQTZ",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.575
+
+;****
+;****----------------------------------------------------------------
+;****	Audio Video Communication
+;****----------------------------------------------------------------
+;****
+
+
+*CATV-COND-E,Cable TV Conduit (Existing)
+A,1.25,["TV CO",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*CATV-COND-P,Cable TV Conduit (Proposed)
+A,1.25,["TV CO",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*CATV-DEMO,Cable TV General Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["TV",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.25
+
+*CATV-DUCT-E,Cable TV Duct Bank (Existing)
+A,1.25,["TV DB",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*CATV-DUCT-P,Cable TV Duct Bank (Proposed)
+A,1.25,["TV DB",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*CATV-E,Cable TV General (Existing)
+A,1.25,["TV",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.25
+
+*CATV-OVHD-E,Cable TV Overhead (Existing)
+A,1.25,["TV OH",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*CATV-OVHD-P,Cable TV Overhead (Proposed)
+A,1.25,["TV OH",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*CATV-P,Cable TV General (Proposed)
+A,1.25,["TV",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*CATV-UNDR-E,Cable TV Underground (Existing)
+A,1.25,["TV UG",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*CATV-UNDR-P,Cable TV Underground (Proposed)
+A,1.25,["TV UG",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+
+;****
+;****----------------------------------------------------------------
+;****	Communication
+;****----------------------------------------------------------------
+;****
+
+*COMM-COND-E,Communication Conduit (Existing)
+A,1.25,["C CO",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*COMM-COND-P,Communication Conduit (Proposed)
+A,1.25,["C CO",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*COMM-DEMO,Communication General Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["C",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*COMM-DUCT-E,Communication Ductbank (Existing)
+A,1.25,["C DB",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*COMM-DUCT-P,Communication Ductbank (Proposed)
+A,1.25,["C DB",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*COMM-E,Communication General (Existing)
+A,1.25,["C",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*COMM-OVHD-E,Communication Overhead (Existing)
+A,1.25,["C OH",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*COMM-OVHD-P,Communication Overhead (Proposed)
+A,1.25,["C OH",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*COMM-P,Communication General (Proposed)
+A,1.25,["C",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.175
+
+*COMM-UNDR-E,Communication Underground (Existing)
+A,1.25,["C UG",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*COMM-UNDR-P,Communication Underground (Proposed)
+A,1.25,["C UG",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+;****
+;****----------------------------------------------------------------
+;****	Chilled Water
+;****----------------------------------------------------------------
+;****
+
+*CWTR-A,Chilled water line (Abandoned)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["CW",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.30
+
+*CWTR-DEMO,Chilled water line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["CW",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.30
+
+*CWTR-E,Chilled water line (Existing)
+A,1.25,["CW",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.30
+
+*CWTR-P,Chilled water line (Proposed)
+A,1.25,["CW",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.35
+
+*CWTR-RETN-E,Chilled water return line (Existing)
+A,1.25,["CWR",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.375
+
+*CWTR-RETN-P,Chilled water return line (Proposed)
+A,1.25,["CWR",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.45
+
+*CWTR-SPLY-E,Chilled water supply line (Existing)
+A,1.25,["CWS",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.375
+
+*CWTR-SPLY-P,Chilled water supply line (Proposed)
+A,1.25,["CWS",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.45
+
+*CWTR-TA,Chilled water line (To Be Abandoned)
+A,.35,-.1,.35,-.1,.35,["CW",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.30
+
+;****
+;****----------------------------------------------------------------
+;****	Electric
+;****----------------------------------------------------------------
+;****
+
+*ELEC-COND-E,Electrical Counduit (Existing)
+A,1.25,["E CO",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*ELEC-COND-P,Electrical Conduit (Proposed)
+A,1.25,["E CO",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*ELEC-DEMO,Electrical Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["E",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*ELEC-DUCT-E,Electrical Ductbank (Existing)
+A,1.25,["E DB",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*ELEC-DUCT-P,Electrical Ductbank (Proposed)
+A,1.25,["E DB",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*ELEC-E,Electrical (Existing)
+A,1.25,["E",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*ELEC-OVHD-E,Electrical Overhead (Existing)
+A,1.25,["E OH",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*ELEC-OVHD-P,Electrical Overhead (Proposed)
+A,1.25,["E OH",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+*ELEC-P,Electrical (Proposed)
+A,1.25,["E",COA_Proposed,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*ELEC-UNDR-E,Electrical Underground (Existing)
+A,1.25,["E UG",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.40
+
+*ELEC-UNDR-P,Electrical Underground (Proposed)
+A,1.25,["E UG",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.475
+
+;****
+;****----------------------------------------------------------------
+;****	Fiber Optic
+;****----------------------------------------------------------------
+;****
+
+*FIBR-COND-E,Fiber Optics Cable - Conduit (Existing)
+A,1.25,["FO CO",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.5
+
+*FIBR-COND-P,Fiber Optics Cable - Conduit (Proposed)
+A,1.25,["FO CO",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*FIBR-DEMO,Fiber Optics Cable General Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["FO",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*FIBR-DUCT-E,Fiber Optics Cable - Ductbank (Existing)
+A,1.25,["FO DB",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.5
+
+*FIBR-DUCT-P,Fiber Optics Cable - Ductbank (Proposed)
+A,1.25,["FO DB",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*FIBR-E,Fiber Optics Cable General (Existing)
+A,1.25,["FO",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.25
+
+*FIBR-OVHD-E,Fiber Optics Cable - Overhead (Existing)
+A,1.25,["FO OH",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.5
+
+*FIBR-OVHD-P,Fiber Optics Cable - Overhead (Proposed)
+A,1.25,["FO OH",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*FIBR-P,Fiber Optics Cable General (Proposed)
+A,1.25,["FO",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*FIBR-UNDR-E,Fiber Optics Cable - Underground (Existing)
+A,1.25,["FO UG",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.5
+
+*FIBR-UNDR-P,Fiber Optics Cable - Underground (Proposed)
+A,1.25,["FO UG",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+;****
+;****----------------------------------------------------------------
+;****	Irrigation
+;****----------------------------------------------------------------
+;****
+
+*IRRG-A,Irrigation Line (Abandoned)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["IR",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.20
+
+*IRRG-DEMO,Irrigation Line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["IR",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.20
+
+*IRRG-E,Irrigation Line (Existing)
+A,1.25,["IR",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.20
+
+*IRRG-P,Irrigation Line (Proposed)
+A,1.25,["IR",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.225
+
+*IRRG-TA,Irrigation Line (To Be Abandoned)
+A,.35,-.1,.35,-.1,.35,["IR",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.20
+
+*SPKL-LTRL-E,Lawn Sprinkler Line Existing
+A,1.25,["SL",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*SPKL-LTRL-P,Lawn Sprinkler Line Proposed
+A,1.25,["SL",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*SPKL-MAIN-E,Sprinkler Line Main Supply Existing
+A,1.25,["SM",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*SPKL-MAIN-P,Sprinkler Line Main Supply Proposed
+A,1.25,["SM",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+;****
+;****----------------------------------------------------------------
+;****	Natural Gas
+;****----------------------------------------------------------------
+;****
+
+
+*NGAS-A,Natural Gas Abandonded
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["G",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.15
+
+*NGAS-DEMO,Natural Gas General Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["G",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*NGAS-E,Natural Gas (Existing)
+A,1.25,["G",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*NGAS-E-S,Natural Gas Service (Existing)
+A,1.25,["GS",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*NGAS-HPIP-E,High Pressure Gas
+A,1.25,["HG",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*NGAS-HPIP-P,High Pressure Gas (Proposed)
+A,1.25,["HG",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*NGAS-P,Natural Gas (Proposed)
+A,1.25,["G",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.175
+
+*NGAS-P-S,Natural Gas Service (Proposed)
+A,1.25,["GS",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.30
+
+*NGAS-TA,Natural Gas (To Be Abandonded)
+A,.35,-.1,.35,-.1,.35,["G",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.15
+
+;****
+;****----------------------------------------------------------------
+;****	Petroleum
+;****----------------------------------------------------------------
+;****
+
+*PETR-DEMO,Petroleum Line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["PET",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.325
+
+*PETR-E,Petroleum Line (Existing)
+A,1.25,["PET",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.325
+
+*PETR-P,Petroleum Line Proposed
+A,1.25,["PET",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.375
+
+;****
+;****----------------------------------------------------------------
+;****	Reclaimed Water
+;****----------------------------------------------------------------
+;****
+
+*NPWR-A,Nonpotable water line (Abandoned Text)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["R",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.15
+
+*NPWR-DEMO,Nonpotable water line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["R",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*NPWR-E,Nonpotable water line (Existing)
+A,1.25,["R",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.15
+
+*NPWR-P,Nonpotable water line (Proposed)
+A,1.25,["R",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.175
+
+*NPWR-TA,Nonpotable water line (To Be Abandonded Text)
+A,.35,-.1,.35,-.1,.35,["R",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.15
+
+;****
+;****----------------------------------------------------------------
+;****	Storm Drain
+;****----------------------------------------------------------------
+;****
+
+*STRM-A,Storm Sewer Line (Abandoned)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,[">>",COA_Line,S=0.1,X=0.025,y=-0.0428],-0.225
+
+*STRM-A-SD,Storm Sewer Line (Abandoned) SD
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["SD",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.225
+
+*STRM-DEMO,Storm Sewer Line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,[">>",COA_Line,S=0.1,X=0.025,y=-0.0428],-0.225
+
+*STRM-DEMO-SD,Storm Sewer Line Demolition SD
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["SD",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.225
+
+*STRM-E,Storm Sewer Line (Existing)
+A,1.25,[">>",COA_Line,S=0.1,X=0.025,y=-0.0428],-0.225
+
+*STRM-E-SD,Storm Sewer Line (Existing) SD
+A,1.25,["SD",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.225
+
+*STRM-P,Storm Sewer Line (Proposed
+A,1.25,[">>",COA_Line,S=0.1,X=0.025,y=-0.0428],-0.225
+
+*STRM-P-SD,Storm Sewer Line (Proposed) SD
+A,1.25,["SD",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.3
+
+*STRM-PERF-DRAN,Perforated Drain Line
+A,1.25,["PD",COA_Proposed,S=0.04,X=0.025,Y=-0.04],-0.25
+
+*STRM-TA,Storm Sewer Line (To Be Abandoned)
+A,.35,-.1,.35,-.1,.35,[">>",COA_Line,S=0.1,X=0.025,y=-0.0428],-0.225
+
+*STRM-TA-SD,Storm Sewer Line (To Be Abandoned) SD
+A,.35,-.1,.35,-.1,.35,["SD",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.225
+
+*STRM-TREE-DRAN,Tree Drain Line
+A,1.25,["TD",COA_Proposed,S=0.04,X=0.025,Y=-0.04],-0.25
+
+;****
+;****----------------------------------------------------------------
+;****	Traffic Signal
+;****----------------------------------------------------------------
+;****
+
+*TRAF-COND-E,Traffic Signal Conduit (Existing)
+A,1.25,["TS CO",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*TRAF-COND-P,Traffic Signal Conduit (Proposed)
+A,1.25,["TS CO",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*TRAF-DEMO,Traffic Signal Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["TS",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.25
+
+*TRAF-DUCT-E,Traffic Signal Ductbank (Existing)
+A,1.25,["TS DB",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*TRAF-DUCT-P,Traffic Signal Ductbank (Proposed)
+A,1.25,["TS DB",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*TRAF-E,Traffic Signal (Existing)
+A,1.25,["TS",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.25
+
+*TRAF-OVHD-E,Traffic Signal Overhead (Existing)
+A,1.25,["TS OH",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*TRAF-OVHD-P,Traffic Signal Overhead (Proposed)
+A,1.25,["TS OH",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+*TRAF-P,Traffic Signal (Proposed)
+A,1.25,["TS",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*TRAF-UNDR-E,Traffic Signal Underground (Existing)
+A,1.25,["TS UG",COA_Existing,S=0.05,x=0.025,y=-0.05],-0.475
+
+*TRAF-UNDR-P,Traffic Signal Underground (Proposed)
+A,1.25,["TS UG",COA_Proposed,S=0.05,x=0.025,y=-0.06],-0.575
+
+;****
+;****----------------------------------------------------------------
+;****	Water
+;****----------------------------------------------------------------
+;****
+
+*FIRE-A,Fire Water line (Abandoned)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["FW",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.275
+
+*FIRE-DEMO,Fire Water line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["FW",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.275
+
+*FIRE-E,Fire Water line (Existing)
+A,1.25,["FW",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.275
+
+*FIRE-P,Fire Water line (Proposed)
+A,1.25,["FW",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.325
+
+*FIRE-TA,Fire Water line (To Be Abandoned)
+A,.35,-.1,.35,-.1,.35,["FW",COA_Existing,S=0.05,X=0.025,y=-0.05],-0.275
+
+*WATR-A,Water Line (Abandoned)
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["W",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*WATR-DEMO,Water line Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["W",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*WATR-E,Water line (Existing)
+A,1.25,["W",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*WATR-P,Water line (Proposed)
+A,1.25,["W",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.225
+
+*WATR-TA,Water Line (To Be Abandoned)
+A,.35,-.1,.35,-.1,.35,["W",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+;****
+;****----------------------------------------------------------------
+;****	Waste Water
+;****----------------------------------------------------------------
+;****
+
+*WWTR-A,Wastewater (Abandoned)
+A,0.25,-0.0833,0.25,-0.0833,0.25,-0.0833,0.3833,[">",COA_Line,S=0.1,X=0,Y=-0.0428],0.3833,-0.0833
+
+*WWTR-A-FM,ForceMain (Abandoned)
+A,0.25,-0.0833,0.25,-0.0833,0.25,-0.0833,0.3833,[">>",COA_Line,S=0.1,X=0,y=-0.0428],0.3833,-0.0833
+
+*WWTR-A-FMT,ForceMain (Abandoned) FM
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["FM",COA_Existing,S=0.05,X=0.025,y=-0.05],-.25
+
+*WWTR-A-WWT,Wastewater (Abandoned) WW
+A,0.25,-0.083,0.25,-0.083,0.25,-0.083,0.25,["WW",COA_Existing,S=0.05,X=0.025,y=-0.05],-.315
+
+*WWTR-DEMO,Wastewater Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.3125,[">",COA_Line,S=0.1,X=0,y=-0.0428],0.3125,-.125
+
+*WWTR-DEMO-FM,ForceMain Demolition
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.3125,[">>",COA_Line,S=0.1,X=0,y=-0.0428],0.3125,-.125
+
+*WWTR-DEMO-FMT,Forcemain Demolition FM
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["FM",COA_Existing,S=0.05,X=0.025,y=-0.05],-.25
+
+*WWTR-DEMO-WWT,Wastewater Demolition WW
+A,.15,-.125,.15,-.125,.15,-.125,.15,-.125,.15,["WW",COA_Existing,S=0.05,X=0.025,y=-0.05],-.315
+
+*WWTR-E,Wastewater (Existing)
+A,1.85,[">",COA_Line,S=0.1,X=0,y=-0.0428],0
+
+*WWTR-E-FM,Wastewater Forcemain (Existing)
+A,1.85,[">>",COA_Line,S=0.1,X=0,y=-0.0428],0
+
+*WWTR-E-FMT,Wastewater Forcemain (Existing) WW
+A,1.25,["FM",COA_Existing,S=0.05,X=0.025,y=-0.05],-.25
+
+*WWTR-E-WW,Wastewater (Existing) WW
+A,1.25,["WW",COA_Existing,S=0.05,X=0.025,y=-0.05],-.315
+
+*WWTR-P,Wastewater (Proposed)
+A,1.85,[">",COA_Line,S=0.1,X=0,y=-0.0428],0
+
+*WWTR-P-FM,Wastewater Forcemain (Proposed)
+A,1.85,[">>",COA_Line,S=0.1,X=0,y=-0.0428],0
+
+*WWTR-P-FMT,Wastewater Forcemain (Proposed) WW
+A,1.25,["FM",COA_Proposed,S=0.05,X=0.025,y=-0.06],-.3
+
+*WWTR-P-WWT,Wastewater (Proposed) WW
+A,1.25,["WW",COA_Proposed,S=0.05,X=0.025,y=-0.06],-.375
+
+*WWTR-TA,Wastewater (To Be Abandoned)
+A,.35,-.1,.35,-.1,.425,[">",COA_Line,S=0.1,X=0,Y=-0.0428],.425,-.1
+
+*WWTR-TA-FM,ForceMain (To Be Abandoned)
+A,.35,-.1,.35,-.1,.425,[">>",COA_Line,S=0.1,X=0,y=-0.0428],.425,-.1
+
+*WWTR-TA-FMT,ForceMain (To Be Abandoned) FM
+A,.35,-.1,.35,-.1,.35,["FM",COA_Existing,S=0.05,X=0.025,y=-0.05],-.25
+
+*WWTR-TA-WWT,Wastewater (To Be Abandoned) WW
+A,.35,-.1,.35,-.1,.35,["WW",COA_Existing,S=0.05,X=0.025,y=-0.05],-.315
+
+;****
+;****----------------------------------------------------------------
+;****	Concrete Detailing
+;****----------------------------------------------------------------
+;****
+
+*DTCJ,Doweled Transverse Contraction Joint ___ _ _ ___ _ _ ___ _ _ ___ _ _
+A,.3,-.05,.05,-.05,.05,-.05
+
+*LCCJ,Logitudinal Construction-Contraction Joint _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ 
+A,.05,-.05
+
+*RBAR-06IN,Rebar 6" spacing
+A,0.3,[FILLCIRCLE,COA_ESD,S=0.00625,Y=0.025],0.3
+
+*RBAR-09IN,Rebar 9" spacing
+A,0.45,[FILLCIRCLE,COA_ESD,S=0.00625,Y=0.025],0.45
+
+*RBAR-12IN,Rebar 12" spacing
+A,0.6,[FILLCIRCLE,COA_ESD,S=0.00625,Y=0.025],0.6
+
+*RBAR-18IN,Rebar 18" spacing
+A,0.9,[FILLCIRCLE,COA_ESD,S=0.00625,Y=0.025],0.9
+
+;****
+;****----------------------------------------------------------------
+;****	Traffic Control & Pavement Marking
+;****----------------------------------------------------------------
+;****
+
+*CONE,Traffic Control Cone
+A,0,[cone,coa_esd,s=.1,x=0],-0.75
+
+*STRP-04IN,Striping - 4"
+A,0.0001,0,0001
+
+*STRP-0422,Bike Path 4" Striping - 2' Dash 2' Gap
+A,2,-2
+
+*STRP-0424,Bike Path 4" Striping - 2' Dash 4' Gap
+A,2,-4
+
+*STRP-06IN,Striping - 6"
+A,0.0001,0,0001
+
+*STRP-0611,Bike Path 6" Striping - 1' Dash 1' Gap
+A,1,-1
+
+*STRP-0626,Bike Path 6" Striping - 2' Dash 6' Gap
+A,2,-6
+
+*STRP-0639,Bike Path 6" Striping - 3' Dash 9' Gap
+A,3,-9
+
+*STRP-08IN,Striping - 8"
+A,0.0001,0,0001
+
+*STRP-12IN,Striping - 12"
+A,0.0001,0,0001
+
+*STRP-1211,Bike Path 12" Striping - 1' Dash 1' Gap
+A,1,-1
+
+*STRP-24IN,Striping - 24"
+A,0.0001,0,0001
+
+*STRP-BPDD,Bike Path Dashed Dot
+A,10,-14.75,0.5,-14.75,10,-30
+
+*STRP-BPDM,Bike Path Striping Removal
+A,0.0001,[">",COA_Line,S=1.3,X=0.3096,Y=-0.557],-1.3
+
+*STRP-DASH,Dashed Stripe
+A,10,-30
+
+*STRP-DDOT,Dashed Dot Stripe
+A,10,-14.75,0.5,-14.75
+
+*STRP-DETR,Traffic Control Detour
+A,0.0001,[">",COA_Line,S=2,X=2.3,Y=-.85],-4
+
+*STRP-DOBL,Striping - 4" Double Line
+A,0.0001,0,0001
+
+*STRP-RDDM,Striping Removal
+A,0.0001,["X",COA_Line,S=1,X=-.325,Y=-0.5],-0.75
+
+*WTRB,Traffic Control Water Barrier
+A,0.0001,[wfb,coa_esd,S=.05],-.45
+
+;****
+;****----------------------------------------------------------------
+;****	Piping Materials
+;****----------------------------------------------------------------
+;****
+
+*CIP-E,Cast iron Existing
+A,1.25,["CI",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*CIP-P,Cast iron Proposed
+A,1.25,["CI",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.225
+
+*CLAY-E,Clay tile pipe Existing
+A,1.25,["CT",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.225
+
+*CLAY-P,Clay tile pipe Proposed
+A,1.25,["CT",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.275
+
+*CMP-E,Corrugated Metal Pipe Existing
+A,1.25,["CMP",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.35
+
+*CMP-P,Corrugated Metal Pipe Proposed
+A,1.25,["CMP",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*DIP-E,Ductile iron Existing
+A,1.25,["DI",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.175
+
+*DIP-P,Ductile iron Proposed
+A,1.25,["DI",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.225
+
+*PVC-E,PVC Pipe Existing
+A,1.25,["PVC",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.35
+
+*PVC-P,PVC Pipe Proposed
+A,1.25,["PVC",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40
+
+*RCP-E,Reinforced Concrete Pipe Existing
+A,1.25,["RCP",COA_Existing,S=0.05,X=0.025,Y=-0.05],-0.35
+
+*RCP-P,Reinforced Concrete Pipe Proposed
+A,1.25,["RCP",COA_Proposed,S=0.05,X=0.025,Y=-0.06],-0.40

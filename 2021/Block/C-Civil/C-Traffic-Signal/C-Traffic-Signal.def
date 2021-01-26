@@ -1,0 +1,12 @@
+;------------------------------------------------------------------------------- 
+; Civil Traffic Signal.def 
+;-------------------------------------------------------------------------------
+"TRAF_CBOX_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_CLIP_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_LGHT_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_MANH_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_PBOX_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_PEDS_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_SGNE_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_SIGN_P","C-TRAF-SYMB","User selects","1","0","0"
+"TRAF_VALT_P","C-TRAF-SYMB","User selects","1","0","0"

@@ -1,0 +1,7 @@
+;------------------------------------------------------------------------------- 
+; Civil Fiber Optic .def 
+;-------------------------------------------------------------------------------
+"FIBR_CLIP_P","C-FIBR-SYMB","User selects","1","0","0"
+"FIBR_JBOX_P","C-FIBR-SYMB","User selects","1","0","0"
+"FIBR_MANH_P","C-FIBR-SYMB","User selects","1","0","0"
+"FIBR_VALT_P","C-FIBR-SYMB","User selects","1","0","0"
