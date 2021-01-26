@@ -18,14 +18,14 @@ REM Checking for local Civil 3D Custom Data
 
 :Civil_Custom
 
-IF NOT EXIST "C:\Autodesk\Civil_3D\2020" (GOTO :Civil_Local) ELSE (GOTO :Civil_Stock)
+IF NOT EXIST "C:\Autodesk\Civil_3D\2021" (GOTO :Civil_Local) ELSE (GOTO :Civil_Stock)
 
 
 REM Copying local Civil 3D Custom Data
 
 :Civil_Local
 
-REM Cleaning up 2020 Network Profile
+REM Cleaning up 2021 Network Profile
 
 RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\AutoCAD 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\AutoCAD 2021"
@@ -38,19 +38,19 @@ mkdir "C:\Autodesk\Temp\"
 SETLOCAL
 
 SET _source_Common=M:\Autodesk\Civil_3D\[Common]
-SET _source_C3D2020=M:\Autodesk\Civil_3D\2020
+SET _source_C3D2021=M:\Autodesk\Civil_3D\2020
 
 SET _dest_Common=C:\Autodesk\Civil_3D\[Common]
-SET _dest_C3D2020=C:\Autodesk\Civil_3D\2020
+SET _dest_C3D2021=C:\Autodesk\Civil_3D\2020
 
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
-SET _what_C3D2020=/COPY:DAT /E /R:5
+SET _what_C3D2021=/COPY:DAT /E /R:5
 
 ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
-ROBOCOPY %_source_C3D2020% %_dest_C3D2020% %_what_C3D2020%
+ROBOCOPY %_source_C3D2021% %_dest_C3D2021% %_what_C3D2021%
 
 attrib -s -h %_dest_Common%
-attrib -s -h %_dest_C3D2020%
+attrib -s -h %_dest_C3D2021%
 
 (GOTO :Civil_Stock)
 
@@ -58,14 +58,14 @@ REM Check if stock Civil 3D is configured for current user
 
 :Civil_Stock
 
-IF NOT EXIST "%userprofile%\AppData\Roaming\Autodesk\C3D 2020\enu\Support\C3D.cuix" (GOTO :Civil_Setup) ELSE (GOTO :Refresh_Files)
+IF NOT EXIST "%userprofile%\AppData\Roaming\Autodesk\C3D 2021\enu\Support\C3D.cuix" (GOTO :Civil_Setup) ELSE (GOTO :Refresh_Files)
 
 REM Configuration stock Civil 3D for current user
 
 :Civil_Setup
 
-CALL "C:\Autodesk\Civil_3D\2020\User\C3D_2020.lnk" /b "C:\Autodesk\Civil_3D\2020\Support\openclose.scr"
-REM CALL "C:\Autodesk\Civil_3D\2020\User\C3A_2020.lnk" /b "C:\Autodesk\Civil_3D\2020\Support\openclose.scr"
+CALL "C:\Autodesk\Civil_3D\2021\User\C3D_2020.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
+REM CALL "C:\Autodesk\Civil_3D\2021\User\C3A_2020.lnk" /b "C:\Autodesk\Civil_3D\2021\Support\openclose.scr"
 
 (GOTO :Refresh_Files)
 
@@ -74,23 +74,23 @@ REM Refreshing local Custom Civil 3D Data
 :Refresh_Files
 
 SET _source_Common=M:\Autodesk\Civil_3D\[Common]
-SET _source_C3D2020=M:\Autodesk\Civil_3D\2020
+SET _source_C3D2021=M:\Autodesk\Civil_3D\2021
 
 SET _dest_Common=C:\Autodesk\Civil_3D\[Common]
-SET _dest_C3D2020=C:\Autodesk\Civil_3D\2020
+SET _dest_C3D2021=C:\Autodesk\Civil_3D\2021
 
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
-SET _what_C3D2020=/COPY:DAT /E /R:5
+SET _what_C3D2021=/COPY:DAT /E /R:5
 
 ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
-ROBOCOPY %_source_C3D2020% %_dest_C3D2020% %_what_C3D2020%
+ROBOCOPY %_source_C3D2021% %_dest_C3D2021% %_what_C3D2021%
 
 attrib -s -h %_dest_Common%
-attrib -s -h %_dest_C3D2020%
+attrib -s -h %_dest_C3D2021%
 
 REM Changing Default annotation scale list
 
-REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R23.1\ACAD-2000:409\Scale List" /f
+REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\ACAD-4100:409\Scale List" /f
 
 md c:\temp
 
@@ -105,7 +105,7 @@ If exist "%Temp%\~import.reg" (
 )
 > "%Temp%\~import.reg" ECHO Windows Registry Editor Version 5.00
 >> "%Temp%\~import.reg" ECHO.
->> "%Temp%\~import.reg" ECHO [HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R23.1\ACAD-3000:409\Scale List]
+>> "%Temp%\~import.reg" ECHO [HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\ACAD-4100:409\Scale List]
 >> "%Temp%\~import.reg" ECHO " 0.ScaleName"="1 MILE"
 >> "%Temp%\~import.reg" ECHO " 0.ScalePaperUnits"="1.00000000"
 >> "%Temp%\~import.reg" ECHO " 0.ScaleDrawingUnits"="5280.00000000"
@@ -246,5 +246,5 @@ DEL "%Temp%\~import.reg"
 
 :Start_Civil3D
 ie4uinit.exe -show
-start "" /b "C:\Autodesk\Civil_3D\2020\User\ESD_C3D_2020_Start.lnk"
+start "" /b "C:\Autodesk\Civil_3D\2021\User\ESD_C3D_2020_Start.lnk"
 EXIT
