@@ -1,0 +1,17 @@
+;;; VLisp project file [V2.0] BlockManager saved to:[C:/Documents and Settings/Jim Buzbee/My Documents/KB CadTools 2009 v1.4/Block Manager/v0.3] at:[3/6/10] 
+(VLISP-PROJECT-LIST
+   :NAME
+   BlockManager
+   :OWN-LIST
+   ("BM_FormDef" "BM_UtilitySubs" "BM_FormSubs"	"BM_ControlEvents" "BM_FormEvents"
+		 "BM_PreviewForm")
+   :FAS-DIRECTORY
+   "C:/Documents and Settings/Jim Buzbee/My Documents/KB CadTools 2009 v1.4/Block Manager/v0.3"
+   :TMP-DIRECTORY
+   "C:\\Documents and Settings\\Jim Buzbee\\My Documents\\KB CadTools 2009 v1.4\\Block Manager\\v0.3\\temp"
+   :PROJECT-KEYS
+   (:BUILD (:standard) :MERGED t :SAFE-MODE t :MSGLEVEL 1)
+   :CONTEXT-ID
+   :autolisp
+)
+;;; EOF

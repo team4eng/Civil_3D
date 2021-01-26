@@ -1,0 +1,42 @@
+(defun c:OO ( / box off sel )
+    (if (null bbox:offset)
+        (setq bbox:offset 2.5)
+    )
+    (if (null (setq off (getdist (strcat "\nSpecify offset <" (rtos bbox:offset) ">: "))))
+        (setq off bbox:offset)
+        (setq bbox:offset off)
+    )    
+    (if (and (setq sel (ssget))
+             (setq box (LM:ssboundingbox sel))
+        )
+        (entmake
+            (list
+               '(000 . "LWPOLYLINE")
+               '(100 . "AcDbEntity")
+               '(100 . "AcDbPolyline")
+               '(090 . 4)
+               '(070 . 1)
+                (list 10 (- (caar  box) off) (- (cadar  box) off))
+                (list 10 (+ (caadr box) off) (- (cadar  box) off))
+                (list 10 (+ (caadr box) off) (+ (cadadr box) off))
+                (list 10 (- (caar  box) off) (+ (cadadr box) off))
+            )
+        )
+    )
+    (princ)
+)
+
+;; Selection Set Bounding Box  -  Lee Mac
+;; Returns the lower-left and upper-right WCS points of a rectangle
+;; bounding all objects in a supplied selection set
+
+(defun LM:ssboundingbox ( ss / i l1 l2 ll ur )
+    (repeat (setq i (sslength ss))
+        (vla-getboundingbox (vlax-ename->vla-object (ssname ss (setq i (1- i)))) 'll 'ur)
+        (setq l1 (cons (vlax-safearray->list ll) l1)
+              l2 (cons (vlax-safearray->list ur) l2)
+        )
+    )
+    (mapcar '(lambda ( a b ) (apply 'mapcar (cons a b))) '(min max) (list l1 l2))
+)
+(vl-load-com) (princ)

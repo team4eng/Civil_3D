@@ -1,0 +1,13 @@
+(defun c:rn()
+  (setq tw(entget(car(entsel" Select a Viewport:"))))
+  (setq new (cdr (assoc 0 tw)))
+(cond
+                ((= new "VIEWPORT")(setq rt(cdr(assoc 51 tw))))
+((= new "LWPOLYLINE")(setq temp (entget(cdr (assoc 330 tw))))(setq rt(cdr(assoc 51 temp))))
+             )
+  (setq en(car(entsel" Select North Arrow: ")))
+  (setq elist(entget en))
+  (setq elist(subst (cons 50 rt)(assoc 50 elist) elist))
+  (entmod elist)
+  (princ)
+)

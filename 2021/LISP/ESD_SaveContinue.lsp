@@ -1,0 +1,6 @@
+(defun c:QSC ()
+ (command ".audit" "yes")
+ (command ".qsave")
+ (command "SAVE" (strcat "C:\\Autodesk\\Temp\\" (getvar "DWGNAME")) "Y")
+ (princ)
+)
