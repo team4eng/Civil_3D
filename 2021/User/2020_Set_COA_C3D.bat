@@ -27,11 +27,11 @@ REM Copying local Civil 3D Custom Data
 
 REM Cleaning up 2020 Network Profile
 
-RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\AutoCAD 2020"
-RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\AutoCAD 2020"
-RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\C3D 2020"
-RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\C3D 2020"
-REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R23.1" /f
+RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\AutoCAD 2021"
+RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\AutoCAD 2021"
+RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\C3D 2021"
+RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\C3D 2021"
+REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0" /f
 
 mkdir "C:\Autodesk\Temp\"
 
