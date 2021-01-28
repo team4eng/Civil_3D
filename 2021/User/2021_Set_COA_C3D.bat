@@ -258,4 +258,5 @@ ie4uinit.exe -show
 start "" /b "C:\Autodesk\Civil_3D\2021\User\ESD_C3D_2021_Start.lnk"
 
 ECHO DONE
-EXIT /b
+REM EXIT /b
+EXIT %1
