@@ -35,7 +35,7 @@
 		(setvar "qpmode" 0)
 		(setvar "lwdisplay" 0)
 		(setvar "hpname" "solid")
-		(arxload "DOSLib23x64.arx")
+		(arxload "DOSLib24x64.arx")
         (if (findfile "C:\\Program Files (x86)\\Common Files\\OpenDCL")(progn (load "ESD_CADUpdates.lsp")(C:CADUpdates)))
       ;---------------- end stuff to run once per session --------------------
     )
