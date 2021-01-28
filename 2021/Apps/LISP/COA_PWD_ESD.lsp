@@ -27,7 +27,7 @@
 (progn (autoload "BlockManager" '("BlockManager"))(load (findfile "BlockManager.fas")))
 )
 
-(autoload "C:/Autodesk/Civil_3D/2020/Apps/SSM/SSMPropEditor.lsp" '("SSMPropEditor"))
+(autoload "C:/Autodesk/Civil_3D/2021/Apps/SSM/SSMPropEditor.lsp" '("SSMPropEditor"))
 
 (autoload "CK_FileOpen.vlx" '("OPEN1"))
 
