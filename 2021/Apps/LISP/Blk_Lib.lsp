@@ -63,7 +63,7 @@
 ;   blocks in drawing.
 ;
 ; All_Blk_Lib [All Blocks to Library] - Adds all blocks in drawing to Library.
-;   Example: (All_Blk_Lib "Notes" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Notes\\Notes.def" nil)
+;   Example: (All_Blk_Lib "Notes" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Notes\\Notes.def" nil)
 ;   Returns: Creates or appends a Notes Library DefFile definition file in the
 ;   C:\Autodesk\Civil_3D\BLK\_Config\Notes folder for displaying slides and inserts blocks from the
 ;   same folder by default.
@@ -75,8 +75,8 @@
 ;
 ; Blk_Lib [Block Library] - Inserts blocks from Library or calls the function
 ;   Blk_Mgr.
-;   Example: (Blk_Lib "Electronic Symbols" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Elec_Sym\\Elec_Sym.def"
-;   "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Elec_Blk\\Elec_Blk.def")
+;   Example: (Blk_Lib "Electronic Symbols" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Elec_Sym\\Elec_Sym.def"
+;   "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Elec_Blk\\Elec_Blk.def")
 ;   Returns: Creates or reads an Electronics Symbols Library DefFile definition
 ;   file in the C:\Autodesk\Civil_3D\BLK\_Config\Elec_Sym folder for displaying slides and inserts
 ;   blocks from the C:\Autodesk\Civil_3D\BLK\_Config\Elec_Blk folder.
@@ -85,8 +85,8 @@
 ;
 ; Blk_Mgr [Block Library Manager] - Adds blocks to the Library or calls the
 ;   function Edit_Lib if no blocks found in drawing to add.
-;   Example: (Blk_Mgr "Notes" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Notes\\Notes.def"
-;   "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Notes\\Notes.def")
+;   Example: (Blk_Mgr "Notes" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Notes\\Notes.def"
+;   "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Notes\\Notes.def")
 ;   Returns: Adds a block to the C:\Autodesk\Civil_3D\BLK\_Config\Notes folder or calls the function
 ;   Edit_Lib if no blocks found in drawing to add.
 ;
@@ -99,7 +99,7 @@
 ;
 ; Edit_Lib [Edit Block Library] - Rearranges or deletes lines of block insertion
 ;   data in the DefFile.
-;   Example: (Edit_Lib "Notes" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Notes\\Notes.def")
+;   Example: (Edit_Lib "Notes" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Notes\\Notes.def")
 ;   Returns: Rearrange or delete lines of block insertion data for the Notes
 ;   Library in the C:\Autodesk\Civil_3D\BLK\_Config\Notes\Notes.def DefFile.
 ;
@@ -113,7 +113,7 @@
 ; c:UL and c:User_Lib - Call the function User_Lib with default arguments.
 ;
 ; User_Lib [User Library] - Inserts blocks from Library with only user options.
-;   Example: (User_Lib "Weld Symbols" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Weld_Sym\\Weld_Sym.def" nil)
+;   Example: (User_Lib "Weld Symbols" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Weld_Sym\\Weld_Sym.def" nil)
 ;   Returns: Reads a Weld Symbols Library DefFile definition file in the
 ;   C:\Autodesk\Civil_3D\BLK\_Config\Weld_Sym folder for displaying slides and inserts blocks from
 ;   the same folder by default.
@@ -198,7 +198,7 @@
   ; c:All_Blk_Lib - Start Main Function
   ;-----------------------------------------------------------------------------
   (setq LibTitle$ "All Blocks to")
-  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
   (setq DatFile$ (cadr (GetPathFile PathDat$)))
   (princ (strcat "\n" LibTitle$ " Library "))(princ)
   (Custom_Dirs LibTitle$ PathDat$ nil)
@@ -385,7 +385,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (setq DefPath$ (car (GetPathFile PathDef$)))
   (setq DefFile$ (cadr (GetPathFile PathDef$)))
@@ -578,7 +578,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (setq DefPath$ (car (GetPathFile PathDef$)))
   (setq DefFile$ (cadr (GetPathFile PathDef$)))
@@ -902,11 +902,11 @@
   (set_tile "msg2"
     "(load \"Blk_Lib.lsp\")  (setq *Blk_Lib* t)")
   (set_tile "msg3"
-    "Block Library saves a backup of your drawing as C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg before")
+    "Block Library saves a backup of your drawing as C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg before")
   (set_tile "msg4"
     "it creates slides and wblocks.  If the program is interrupted or canceled, you may")
   (set_tile "msg5"
-    "open C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg as a backup.")
+    "open C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg as a backup.")
   (action_tile "accept" "(done_dialog)")
   (start_dialog)
   (unload_dialog Dcl_Id%)
@@ -939,7 +939,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (setq DefPath$ (car (GetPathFile PathDef$)))
   (setq DefFile$ (cadr (GetPathFile PathDef$)))
@@ -975,7 +975,7 @@
       (end_image)
       (start_image "blocksld")
       (slide_image 0 0 (dimx_tile "blocksld") (dimy_tile "blocksld")
-        (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" Block$ ".sld")
+        (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" Block$ ".sld")
       );slide_image
       (end_image)
       (if (= (cdr (assoc 70 (tblsearch "BLOCK" Block$))) 2)
@@ -1106,7 +1106,7 @@
           (slide_image 0 0
             (dimx_tile (strcat "sld" (itoa Rep#)))
             (dimy_tile (strcat "sld" (itoa Rep#)))
-            (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" ImageName$ ".sld")
+            (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" ImageName$ ".sld")
           );slide_image
           (end_image)
           (set_tile
@@ -1253,7 +1253,7 @@
       (slide_image 0 0
         (dimx_tile "blocksld")
         (dimy_tile "blocksld")
-        (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" Block$ ".sld")
+        (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" Block$ ".sld")
       );slide_image
       (end_image)
       (action_tile "block" "(BlockSub:)")
@@ -1588,7 +1588,7 @@
   );variables
   (SaveDwgName);Save Drawing*.dwg as a different name
   (princ "\nUpdating slides ")(princ)
-  (runapp "DEL C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\*.sld" nil);Delete old temp slides
+  (runapp "DEL C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\*.sld" nil);Delete old temp slides
   (setq Pt1@ (polar (getvar "VIEWCTR") (* pi 0.5)(/ (getvar "VIEWSIZE") 2.0)))
   (setq Pt2@ (polar Pt1@ (* pi 1.5) (getvar "VIEWSIZE")))
   (command "UNDO" "BEGIN")
@@ -1602,7 +1602,7 @@
   (setq UcsIcon# (getvar "UCSICON"))
   (setvar "UCSICON" 0)
   (foreach Block$ BlkList@
-    (setq PathSld$ (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" Block$))
+    (setq PathSld$ (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" Block$))
     (command ".INSERT" Block$ "0,0" "" "" "")
     (command ".ZOOM" "E")
     (setq RealBlk& (ssget "L"))
@@ -1647,8 +1647,8 @@
     Echo2$ Echo3$ Echo4$ FileName% MadeIt NewDir$ Path1$ Path2$ Path3$ Path4$
     Path5$ PathFile$ Q$ Text$ WriteText$
   );variables
-  (if (not (findfile "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Temp.bat"))
-    (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config")
+  (if (not (findfile "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Temp.bat"))
+    (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config")
   );if
   (if (not *Blk_Lib*);Check for global *Blk_Lib* variable
     (Blk_Lib_Msg);Installation Instructions
@@ -1660,7 +1660,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (if (null PathBlk$)
     (setq PathBlk$ PathDef$)
@@ -1671,14 +1671,14 @@
   ;-----------------------------------------------------------------------------
   ; Create C:\Autodesk\Civil_3D\BLK\_Config\Blk_Temp.bat file to create new folders and files.
   ;-----------------------------------------------------------------------------
-  (setq FileName% (open "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Temp.bat" "w"))
+  (setq FileName% (open "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Temp.bat" "w"))
   (write-line ":---- Blk_Temp.bat ----" FileName%)
   (write-line "@ECHO OFF" FileName%)
   (write-line "C:" FileName%)
   (if (and
-      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
-      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
-      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
+      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+      (/= PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
     );and
     (progn
       (if (not (findfile PathDef$))
@@ -1731,10 +1731,10 @@
       );if
     );progn
   );if
-  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   (if (not (findfile PathFile$))
     (progn
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib")
       (setq Path4$ (strcat PathFile$ "\n"))
       (setq Echo1$ (strcat "ECHO " Text$ " > " PathFile$))
       (setq Echo2$ (strcat "ECHO ; Blk_Lib.def >> " PathFile$))
@@ -1745,17 +1745,17 @@
       (setq MadeIt t)
     );progn
   );if
-  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
   (if (not (findfile PathFile$))
     (progn
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib")
       (setq Path5$ (strcat PathFile$ "\n"))
       (setq Echo1$ (strcat "ECHO " Text$ " > " PathFile$))
       (setq Echo2$ (strcat "ECHO ; Sel_Lib.dat >> " PathFile$))
       (setq Echo3$ (strcat "ECHO " Text$ ">> " PathFile$))
       (setq WriteText$ (strcat
-        Q$ "Block" Q$ "," Q$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def" Q$ ","
-        Q$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def" Q$)
+        Q$ "Block" Q$ "," Q$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def" Q$ ","
+        Q$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def" Q$)
       );setq
       (setq Echo4$ (strcat "ECHO " WriteText$ ">> " PathFile$))
       (write-line Echo1$ FileName%)
@@ -1765,10 +1765,10 @@
       (setq MadeIt t)
     );progn
   );if
-  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
+  (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
   (if (not (findfile PathFile$))
     (progn
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld")
       (setq Path3$ (strcat PathFile$ "\n"))
       (setq Echo1$ (strcat "ECHO " Text$ " > " PathFile$))
       (setq Echo2$ (strcat "ECHO ; Blk_Sld.def >> " PathFile$))
@@ -1791,7 +1791,7 @@
   (close FileName%)
   (if MadeIt
     (progn
-      (runapp "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Temp.bat" nil)
+      (runapp "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Temp.bat" nil)
       (setq LibTitle$ nil PathDef$ nil PathBlk$ nil)
     );progn
   );if
@@ -1810,7 +1810,7 @@
   (defun Blk_Sld_def: (BlkList@ / Attribs$ BlockData$ FileName% PathFile$ Q$ Text$
     );variables
     (setq Text$ (strcat ";" (String$ 79 "-")))
-    (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
+    (setq PathFile$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\Blk_Sld.def")
     (setq FileName% (open PathFile$ "w"))
     (write-line Text$ FileName%)
     (write-line "; Blk_Sld.def" FileName%)
@@ -1845,7 +1845,7 @@
     ;---------------------------------------------------------------------------
     ; Get Lists from DefFile$.
     ;---------------------------------------------------------------------------
-    (if (setq PathFile$ (findfile (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" DefFile$)))
+    (if (setq PathFile$ (findfile (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" DefFile$)))
       (setq FileName% (open PathFile$ "r"))
       (progn
         (GetOK (strcat LibTitle$ " Library")
@@ -1961,7 +1961,7 @@
         (slide_image 0 0
           (dimx_tile (strcat "sld" (itoa Rep#)))
           (dimy_tile (strcat "sld" (itoa Rep#)))
-          (strcat "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\" ImageName$ ".sld")
+          (strcat "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\" ImageName$ ".sld")
         );slide_image
         (end_image)
         (set_tile
@@ -2272,7 +2272,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (setq DefPath$ (car (GetPathFile PathDef$)))
   (setq DefFile$ (cadr (GetPathFile PathDef$)))
@@ -2534,7 +2534,7 @@
   );if
   (if (= (getvar "DWGTITLED") 0)
     (progn
-      (setq DwgName$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg")
+      (setq DwgName$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg")
       (if (findfile DwgName$)
         (command ".SAVEAS" "" DwgName$ "Y")
         (command ".SAVEAS" "" DwgName$)
@@ -2545,10 +2545,10 @@
     );if
   );if
   (setq DwgName$ (strcat (getvar "DWGPREFIX")(getvar "DWGNAME")))
-  (if (/= DwgName$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg")
-    (if (findfile "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg");Backup copy of drawing
-      (command ".SAVE" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg" "Y")
-      (command ".SAVE" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.dwg")
+  (if (/= DwgName$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg")
+    (if (findfile "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg");Backup copy of drawing
+      (command ".SAVE" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg" "Y")
+      (command ".SAVE" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.dwg")
     );if
   );if
   (princ)
@@ -2563,7 +2563,7 @@
   (setq Old_error *error* *error* *BL_error*)
   (setvar "CMDECHO" 0) (setvar "REGENMODE" 1)
   (setq LibTitle$ "Select Block")
-  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
   (setq DatFile$ (cadr (GetPathFile PathDat$)))
   (princ (strcat "\n" LibTitle$ " Library "))(princ)
   (Custom_Dirs LibTitle$ PathDat$ nil)
@@ -2767,11 +2767,11 @@
                 );progn
               );if
               (if (and NewBlkPath$
-                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\")
+                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld folder is used by Drawing Blocks\n"
+                    "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld folder is used by Drawing Blocks\n"
                     "and View Blocks.  Choose or create a new folder\n"
                     "for the " Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -2779,11 +2779,11 @@
                 );progn
               );if
               (if (and NewBlkPath$
-                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\")
+                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib folder is used and defined\n"
+                    "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib folder is used and defined\n"
                     "by Block Library.  Choose or create a new folder\n"
                     "for the " Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -2791,11 +2791,11 @@
                 );progn
               );if
               (if (and NewSldPath$
-                  (= (car (GetPathFile NewSldPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\")
+                  (= (car (GetPathFile NewSldPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "No new folder was created inside C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config.\n"
+                    "No new folder was created inside C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config.\n"
                     "Choose or create a new folder for the\n"
                     Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -2867,11 +2867,11 @@
                 );progn
               );if
               (if (and NewBlkPath$
-                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld\\")
+                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld folder is used by Drawing Blocks\n"
+                    "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld folder is used by Drawing Blocks\n"
                     "and View Blocks.  Choose or create a new folder\n"
                     "for the " Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -2879,11 +2879,11 @@
                 );progn
               );if
               (if (and NewBlkPath$
-                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\")
+                  (= (car (GetPathFile NewBlkPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib folder is used and defined\n"
+                    "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib folder is used and defined\n"
                     "by Block Library.  Choose or create a new folder\n"
                     "for the " Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -2891,11 +2891,11 @@
                 );progn
               );if
               (if (and NewSldPath$
-                  (= (car (GetPathFile NewSldPath$)) "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\")
+                  (= (car (GetPathFile NewSldPath$)) "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\")
                 );and
                 (progn
                   (GetOK DialogTitle$ (strcat
-                    "No new folder was created inside C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config.\n"
+                    "No new folder was created inside C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config.\n"
                     "Choose or create a new folder for the\n"
                     Title$ ".def file for the " Title$ " Library.") "Filefolder"
                   );GetOK
@@ -3413,7 +3413,7 @@
     (setq LibTitle$ "Block")
   );if
   (if (null PathDef$)
-    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
+    (setq PathDef$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Blk_Lib.def")
   );if
   (setq DefPath$ (car (GetPathFile PathDef$)))
   (setq DefFile$ (cadr (GetPathFile PathDef$)))
@@ -3723,7 +3723,7 @@
   (setq Old_error *error* *error* *BL_error*)
   (setvar "CMDECHO" 0) (setvar "REGENMODE" 1)
   (setq LibTitle$ "Select Block")
-  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
   (setq DatFile$ (cadr (GetPathFile PathDat$)))
   (princ (strcat "\n" LibTitle$ " Library "))(princ)
   (Custom_Dirs LibTitle$ PathDat$ nil)
@@ -3894,7 +3894,7 @@
     );progn
   );if
   (setq LibTitle$ "Add Drawings to")
-  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
+  (setq PathDat$ "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib\\Sel_Lib.dat")
   (setq DatFile$ (cadr (GetPathFile PathDat$)))
   (princ (strcat "\n" LibTitle$ " Library "))(princ)
   (Custom_Dirs LibTitle$ PathDat$ nil)
@@ -4038,7 +4038,7 @@
     (command ".SAVE" Dwgname$ "Y")
   );if
   (setq FolderDwgs@ (Select_Dwgs FolderDwgs@ TitleLib$ Pathname$))
-  (setq FileName% (open "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.scr" "w"))
+  (setq FileName% (open "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.scr" "w"))
   (write-line "FileOpen" FileName%)
   (write-line "Y" FileName%)
   (write-line (strcat Q$ (getvar "DWGPREFIX") (getvar "DWGNAME") Q$) FileName%)
@@ -4168,7 +4168,7 @@
   (setq Option# (start_dialog))
   (unload_dialog Dcl_Id%)
   (if (= Option# 0)
-    (command "SCRIPT" "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib.scr")
+    (command "SCRIPT" "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib.scr")
   );if
   (if (= Option# 1)
     (progn
@@ -5061,7 +5061,7 @@
       );setq
       (setq NewSldPath$ (getfiled
         " Select a slide in a folder for Match Slides"
-        "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\" "sld" 2)
+        "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\" "sld" 2)
       );setq
     );if
     (if (not (findfile "C:\\Temp\\Temp.txt"))
@@ -5377,11 +5377,11 @@
 ;-------------------------------------------------------------------------------
 (defun Blk_Lib_Support ()
   (vl-load-com)
-  (if (not (findfile "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Temp.bat"))
+  (if (not (findfile "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Temp.bat"))
     (progn
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config")
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Lib")
-      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2020\\Block\\_Config\\Blk_Sld")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Lib")
+      (vl-mkdir "C:\\Autodesk\\Civil_3D\\2021\\Block\\_Config\\Blk_Sld")
     );progn
   );if
   (if (not (findfile "C:\\Temp\\Temp.scr"))
