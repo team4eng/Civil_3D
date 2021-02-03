@@ -1,7 +1,7 @@
 (defun mystartup ()
 
- (command "-style" "Standard" "simplex.shx" "2" "1" "0" "N" "N" "N")
- (command "-style" "COA" "Arial" "0" "1" "0" "_N" "_N")
+ ; (command "-style" "Standard" "simplex.shx" "2" "1" "0" "N" "N" "N")
+ (command "-style" "T4" "Arial" "0" "1" "0" "_N" "_N")
  (command "._ucs" "World") 	 
  (command "_.layer" "_Set" "0" "")
  (command "-scalelistedit" "R" "Y" "E")  
