@@ -1,6 +1,6 @@
 (defun c:AVX()
    (SETVAR "CMDECHO" 0)
-   (command "netload" ""PolylineEdit_19.dll" "AVX")
+   (command "netload" "PolylineEdit_19.dll" "AVX")
    (SETVAR "CMDECHO" 1)
    (princ)
 )
