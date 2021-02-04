@@ -9,6 +9,10 @@
  (Command "celtype" "ByLayer")
  (Command "celweight" "-1")
 ; (command "cplotstyle" "ByLayer") 
+ (Command "pickbox" "5")
+ (Command "dynmode" "0")
+ (Command "dynprompt" "0")
+ 
 )
 
 (defun C:explore ()
