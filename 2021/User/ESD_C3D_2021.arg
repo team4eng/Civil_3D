@@ -857,7 +857,7 @@ REGEDIT4
 "ProfileStorage"="%RoamableRootFolder%\\support\\profiles\\esd_c3d_2021\\profile.aws"
 
 [HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\ACAD-4100:409\Profiles\ESD_C3D_2021\General Configuration]
-"EnterpriseMenuFile"="C:\\autodesk\\civil_3d\\2021\\user\\esd_c3d_2021"
+"EnterpriseMenuFile"="c:\\autodesk\\civil_3d\\2021\\user\\esd_c3d_2021.cuix"                      
 "MenuFile"="%RoamableRootFolder%\\support\\c3d"
 "TempDirectory"="C:\\Autodesk\\Temp\\"
 "ISavePercent"=dword:0000004B

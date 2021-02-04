@@ -25,6 +25,7 @@
 (defun C:R1 () (command "REGENAUTO" "ON"))
 (defun C:R2 () (command "REGENAUTO" "OFF"))
 (defun C:A0 () (command "SNAPANG" "0"))
+(defun C:FIXCOPYPASTE () (dictremove (namedobjdict) "ACAD_DATALINK"))
 
 (load "Blk_Lib.lsp")  (setq *Blk_Lib* t)
 (if (findfile "C:\\Program Files (x86)\\Common Files\\OpenDCL")
