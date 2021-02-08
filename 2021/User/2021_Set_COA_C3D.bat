@@ -249,8 +249,15 @@ If exist "%Temp%\~import.reg" (
 START /WAIT REGEDIT /S "%Temp%\~import.reg"
 DEL "%Temp%\~import.reg"
 
-(GOTO :Start_Civil3D)
+(GOTO :Create_Shortcut)
 
+:Create_Shortcut
+
+REM ECHO Creating shortcut
+
+CALL "create_shortcut.bat"
+
+(GOTO :Start_Civil3D)
 
 :Start_Civil3D
 
