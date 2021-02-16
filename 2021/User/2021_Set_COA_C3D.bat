@@ -7,8 +7,8 @@ subst m: /D
 
 REM Checking for location of M drive
 
-REM IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
-IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
+IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
+rem IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
 
 REM Mapping the M Drive from the DFS location
 
@@ -55,7 +55,7 @@ SET _dest_C3D2021=C:\Autodesk\Civil_3D\2021
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
 SET _what_C3D2021=/COPY:DAT /E /R:5
 
-REM ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
+ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
 ROBOCOPY %_source_C3D2021% %_dest_C3D2021% %_what_C3D2021%
 
 attrib -s -h %_dest_Common%
@@ -91,7 +91,7 @@ SET _dest_C3D2021=C:\Autodesk\Civil_3D\2021
 SET _what_Common=/COPY:DAT /S /PURGE /R:5
 SET _what_C3D2021=/COPY:DAT /E /R:5
 
-REM ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
+ROBOCOPY %_source_Common% %_dest_Common% %_what_Common%
 ROBOCOPY %_source_C3D2021% %_dest_C3D2021% %_what_C3D2021%
 
 attrib -s -h %_dest_Common%
