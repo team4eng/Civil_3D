@@ -7,8 +7,8 @@ subst m: /D
 
 REM Checking for location of M drive
 
-IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
-rem IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
+REM IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
+IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
 
 REM Mapping the M Drive from the DFS location
 
