@@ -14,7 +14,7 @@
 		(command "filedia" "1")
 		(command "cmddia" "1")
 		(command "PICKFIRST" "1")
-		(setvar "dynmode" 3)
+		(setvar "dynpromt" 1)
 		(setvar "WHIPTHREAD" 3)
 		(setvar "TOOLTIPS" 1)
 		(setvar "PEDITACCEPT" 1)
