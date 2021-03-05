@@ -40,7 +40,8 @@ RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\AutoCAD 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\AutoCAD 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\C3D 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\C3D 2021"
-REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\Profiles\ESD_C3D_2021" /f
+REM REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\Profiles\ESD_C3D_2021" /f
+REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0" /f
 
 mkdir "C:\Autodesk\Temp\"
 
