@@ -22,8 +22,8 @@ IF EXIST "\\t42k16\D\Cad Support Files" (NET USE R: "\\t42k16\D\Cad Support File
 :CHK_MDRIVE
 REM Checking for location of M drive
 
-REM IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
-IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
+IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
+REM IF NOT EXIST "M:\" (GOTO :MAP_LOCAL) ELSE (GOTO :Civil_Custom)
 
 REM Mapping the M Drive from the DFS location
 
