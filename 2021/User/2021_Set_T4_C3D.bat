@@ -5,6 +5,21 @@ REM Remove any mapping for M Drive
 NET USE M: /d /y
 subst m: /D
 
+NET USE R: /d /y
+subst r: /D
+
+;;;;
+REM Checking for location of R drive
+
+IF NOT EXIST "R:\" (GOTO :MAP_CSF) ELSE (GOTO :CHK_MDRIVE)
+
+:MAP_CSF
+IF EXIST "\\t42k16\D\Cad Support Files" (NET USE R: "\\t42k16\D\Cad Support Files") ELSE (GOTO :CHK_MDRIVE)
+
+(GOTO :CHK_MDRIVE)
+;;;;
+
+:CHK_MDRIVE
 REM Checking for location of M drive
 
 REM IF NOT EXIST "M:\" (GOTO :MAP_DFS) ELSE (GOTO :Civil_Custom)
@@ -14,7 +29,9 @@ REM Mapping the M Drive from the DFS location
 
 :MAP_DFS
 IF EXIST "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]\Autodesk\Civil_3D" (NET USE M: "\\T42K16\D\Team4 Standards\Paul\[CAD_Resources]\Autodesk") ELSE (GOTO :Civil_Custom)
+
 (GOTO :Civil_Custom)
+
 
 REM Mapping the M Drive from the Local location
 
@@ -40,8 +57,8 @@ RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\AutoCAD 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\AutoCAD 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Roaming\Autodesk\C3D 2021"
 RMDIR /s /q "%USERPROFILE%\AppData\Local\Autodesk\C3D 2021"
-REM REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\Profiles\ESD_C3D_2021" /f
-REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0" /f
+REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0\Profiles\ESD_C3D_2021" /f
+REM REG DELETE "HKEY_CURRENT_USER\Software\Autodesk\AutoCAD\R24.0" /f
 
 mkdir "C:\Autodesk\Temp\"
 

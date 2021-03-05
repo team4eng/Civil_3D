@@ -9,7 +9,7 @@
 (defun c:esd_grid ()
  (command "ucs" "world")
  (command "layer" "M" "G-REFR" "")
- (command "xref" "o" "Q:\\Grids\\DWG\\USGS-GRID.dwg" "0,0" "" "" "")
+ (command "xref" "o" "R:\\Grids\\DWG\\KC_Lidar_key.dwg" "0,0" "" "" "")
  (command "zoom" "o" "l" "")
  (command "draworder" "l" "" "back")
 )
