@@ -614,7 +614,7 @@ T
 (setq ss1 (ssget (list (cons 0 "*text")))
       index 0
       newht "0.1"
-      newstyle "COA"
+      newstyle "T4"
 )
 (if (setq styledata (tblsearch "style" newstyle))
     (progn
@@ -640,7 +640,7 @@ T
 (setq ss1 (ssget (list (cons 0 "*text")))
       index 0
       newht "0.1"
-      newstyle "COA"
+      newstyle "T4"
 )
 (if (setq styledata (tblsearch "style" newstyle))
     (progn
@@ -667,7 +667,7 @@ T
 (setq ss1 (ssget (list (cons 0 "*text")))
       index 0
       newht "0.1"
-      newstyle "COA"
+      newstyle "T4"
 )
 (if (setq styledata (tblsearch "style" newstyle))
     (progn
@@ -811,7 +811,7 @@ T
 (setq ss1 (ssget (list (cons 0 "*text")))
       index 0
       newht "0.12"
-      newstyle "COA"
+      newstyle "T4"
 )
 (if (setq styledata (tblsearch "style" newstyle))
     (progn
