@@ -86,7 +86,7 @@
 (autoload "LM_Count" '("Count"))
 (autoload "LM_DeleteBlocks" '("delblocks"))
 (autoload "LM_DoubleOffset" '("Doff" "DoubleOffset"))
-(autoload "LM_DTCurve" '("DTCURVE" "DTREMOVE"))
+(load "LM_DTCurve")
 (autoload "LM_DynamicTextAlign" '("TXALIGN"))
 (autoload "LM_Ellipse2Arc" '("E2A"))
 (autoload "LM_MatchTextProps" '("MTP" "MatchTextProps"))
