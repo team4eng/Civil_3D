@@ -1,0 +1,146 @@
+<?xml version="1.0"?>
+<LandPart desc="Part Table" version="1.0" xmlns:xlink="http://www.w3.org/1999/xlink" fixColumn="C1">
+	<ColumnConstView desc="Parameter-driven Display" id="CCV1" viewKey="3d" viewName="AeccPartRecipe" pathsRelativeTo="Table">
+		<Images>
+			<Image>
+				<URL xlink:title="Part Reference Image" xlink:href="T4_WasteWater_GRP_Class_72.bmp"/>
+			</Image>
+		</Images>
+		<Recipe>T4_WasteWater_GRP_Class_72.dwg</Recipe>
+	</ColumnConstView>
+	<ColumnUnique desc="Primary Key" datatype="string" name="UUID" visible="0">
+		<RowUnique id="r0">1815E08D-5B6A-42B0-8711-3F4839A38301</RowUnique>
+		<RowUnique id="r1">8AEAAAC3-CFFE-4D85-B964-03680E46A993</RowUnique>
+		<RowUnique id="r2">9651A85A-17F5-40F6-B50E-0887D25D5F7A</RowUnique>
+		<RowUnique id="r3">493FA146-5743-4F5F-81BB-E4D06B51B08A</RowUnique>
+		<RowUnique id="r4">3752D6AE-F68B-4068-A54B-6E8A48A96D42</RowUnique>
+		<RowUnique id="r5">C724014D-B9F0-4D12-A6E1-21540B37111F</RowUnique>
+		<RowUnique id="r6">7499EFD3-99D4-406A-856D-9B38F9A53DBF</RowUnique>
+		<RowUnique id="r7">0C717102-9358-43A1-B031-3459250182E1</RowUnique>
+		<RowUnique id="r8">B5930E3F-A457-4877-8037-67F3F4B28A88</RowUnique>
+		<RowUnique id="r9">15AF462D-8C90-40CC-BB26-D76F1FAA0269</RowUnique>
+		<RowUnique id="r10">EB43EF50-9979-4A3C-BB0A-EDAAF48608B8</RowUnique>
+		<RowUnique id="r11">922E587D-75AF-4901-8424-37B7BC940758</RowUnique>
+		<RowUnique id="r12">F5FDFC69-F32D-47E1-ABA2-C18871989A24</RowUnique>
+		<RowUnique id="r13">3F9DB274-56A3-40ED-A667-A11D27F8AC35</RowUnique>
+		<RowUnique id="r14">6116CF15-3E70-4957-872D-321ABBD57F96</RowUnique>
+		<RowUnique id="r15">F1A4FBA7-72F2-4BEF-A8F9-54949205C4BD</RowUnique>
+		<RowUnique id="r16">42143762-26D0-473C-8BAC-5A13C27A143B</RowUnique>
+		<RowUnique id="r17">29B2E7C1-C591-4C0D-B700-7DD9C3A91664</RowUnique>
+		<RowUnique id="r18">8E2BC18E-109B-4519-BB84-6EBAE2124096</RowUnique>
+		<RowUnique id="r19">B26C9256-2895-4423-BAE5-3DE7D1342CB4</RowUnique>
+		<RowUnique id="r20">6778618F-AC9A-4049-9742-623D0064FEED</RowUnique>
+		<RowUnique id="r21">A7732B13-4481-47EA-82BB-ADB153DE9975</RowUnique>
+		<RowUnique id="r22">A7C8850B-294A-42E2-90CE-9AA8A67C529A</RowUnique>
+		<RowUnique id="r23">8591DF90-2B00-4407-B2E8-A76A29468758</RowUnique>
+		<RowUnique id="r24">ADDA13E6-CA00-4274-A754-30F9D23CC0AB</RowUnique>
+		<RowUnique id="r25">20568128-C7B7-454E-865E-6E0B59F6ED9B</RowUnique>
+	</ColumnUnique>
+	<Column desc="Inner Pipe Diameter" dataType="float" unit="inch" name="PID" id="C1" visible="1" context="PipeInnerDiameter" index="0">
+		<Row id="r0">18.0000</Row>
+		<Row id="r1">20.0000</Row>
+		<Row id="r2">24.0000</Row>
+		<Row id="r3">27.0000</Row>
+		<Row id="r4">28.0000</Row>
+		<Row id="r5">30.0000</Row>
+		<Row id="r6">33.0000</Row>
+		<Row id="r7">36.0000</Row>
+		<Row id="r8">41.0000</Row>
+		<Row id="r9">42.0000</Row>
+		<Row id="r10">44.0000</Row>
+		<Row id="r11">45.0000</Row>
+		<Row id="r12">48.0000</Row>
+		<Row id="r13">51.0000</Row>
+		<Row id="r14">54.0000</Row>
+		<Row id="r15">57.0000</Row>
+		<Row id="r16">60.0000</Row>
+		<Row id="r17">63.0000</Row>
+		<Row id="r18">66.0000</Row>
+		<Row id="r19">69.0000</Row>
+		<Row id="r20">72.0000</Row>
+		<Row id="r21">78.0000</Row>
+		<Row id="r22">84.0000</Row>
+		<Row id="r23">85.0000</Row>
+		<Row id="r24">90.0000</Row>
+		<Row id="r25">96.0000</Row>
+	</Column>
+	<Column desc="Wall Thickness" dataType="float" unit="inch" name="WTh" id="C2" visible="1" context="WallThickness" index="0">
+		<Row id="r0">0.4400</Row>
+		<Row id="r1">0.4800</Row>
+		<Row id="r2">0.5600</Row>
+		<Row id="r3">0.6100</Row>
+		<Row id="r4">0.6500</Row>
+		<Row id="r5">0.6900</Row>
+		<Row id="r6">0.7300</Row>
+		<Row id="r7">0.8100</Row>
+		<Row id="r8">0.9100</Row>
+		<Row id="r9">0.9400</Row>
+		<Row id="r10">0.9700</Row>
+		<Row id="r11">1.0000</Row>
+		<Row id="r12">1.0700</Row>
+		<Row id="r13">1.1300</Row>
+		<Row id="r14">1.1900</Row>
+		<Row id="r15">1.2500</Row>
+		<Row id="r16">1.3100</Row>
+		<Row id="r17">1.3700</Row>
+		<Row id="r18">1.4400</Row>
+		<Row id="r19">1.5000</Row>
+		<Row id="r20">1.5600</Row>
+		<Row id="r21">1.6900</Row>
+		<Row id="r22">1.7900</Row>
+		<Row id="r23">1.8300</Row>
+		<Row id="r24">1.9400</Row>
+		<Row id="r25">2.0500</Row>
+	</Column>
+	<Column desc="Part Size Name" dataType="string" unit="" name="PrtSN" id="C3" visible="1" context="Catalog_PartSizeName" index="0">
+		<Row id="r0">18" GRP</Row>
+		<Row id="r1">20" GRP</Row>
+		<Row id="r2">24" GRP</Row>
+		<Row id="r3">27" GRP</Row>
+		<Row id="r4">28" GRP</Row>
+		<Row id="r5">30" GRP</Row>
+		<Row id="r6">33" GRP</Row>
+		<Row id="r7">36" GRP</Row>
+		<Row id="r8">41" GRP</Row>
+		<Row id="r9">42" GRP</Row>
+		<Row id="r10">44" GRP</Row>
+		<Row id="r11">45" GRP</Row>
+		<Row id="r12">48" GRP</Row>
+		<Row id="r13">51" GRP</Row>
+		<Row id="r14">54" GRP</Row>
+		<Row id="r15">57" GRP</Row>
+		<Row id="r16">60" GRP</Row>
+		<Row id="r17">63" GRP</Row>
+		<Row id="r18">66" GRP</Row>
+		<Row id="r19">69" GRP</Row>
+		<Row id="r20">72" GRP</Row>
+		<Row id="r21">78" GRP</Row>
+		<Row id="r22">84" GRP</Row>
+		<Row id="r23">85" GRP</Row>
+		<Row id="r24">90" GRP</Row>
+		<Row id="r25">96" GRP</Row>
+	</Column>
+	<ColumnConstList desc="Hazen Williams Coefficient" dataType="float" unit="" name="ACHW" id="CCL1" visible="1" context="FlowAnalysis_HazenWilliams" index="0">
+		<Item id="i0">80.0000</Item>
+		<Item id="i1">90.0000</Item>
+		<Item id="i2">100.0000</Item>
+		<Item id="i3">110.0000</Item>
+		<Item id="i4">120.0000</Item>
+		<Item id="i5">130.0000</Item>
+		<Item id="i6">140.0000</Item>
+		<Item id="i7">150.0000</Item>
+		<Item id="i8">160.0000</Item>
+	</ColumnConstList>
+	<ColumnConst desc="Part Domain" dataType="string" unit="" name="PDom" id="CC0" visible="0" context="Catalog_Domain" index="0">Pipe_Domain</ColumnConst>
+	<ColumnConst desc="Part Type" dataType="string" unit="" name="PTyp" id="CC1" visible="1" context="Catalog_PartType" index="0">Pipe</ColumnConst>
+	<ColumnConst desc="Part Subtype" dataType="string" unit="" name="PSTyp" id="CC2" visible="1" context="Catalog_SubType" index="0">Undefined</ColumnConst>
+	<ColumnConst desc="Part Name" dataType="string" unit="" name="PrtNm" id="CC3" visible="0" context="Catalog_PartName" index="0">T4_WasteWater_GRP_Class_72</ColumnConst>
+	<ColumnConst desc="Part Description" dataType="string" unit="" name="PrtD" id="CC4" visible="1" context="Catalog_PartDesc" index="0">T4 WasteWater GRP Class 72</ColumnConst>
+	<ColumnConst desc="Part ID" dataType="string" unit="" name="PrtID" id="CC5" visible="0" context="Catalog_PartID" index="0">5BC289D3-66EC-492C-B1AB-22887CE7C90D</ColumnConst>
+	<ColumnConst desc="Data Version" dataType="string" unit="" name="DVer" id="CC6" visible="0" context="DataVersion" index="0">2.0</ColumnConst>
+	<ColumnConst desc="Content Type" dataType="int" unit="" name="CntTy" id="CC7" visible="0" context="Content_Type" index="0">4</ColumnConst>
+	<ColumnConst desc="Hide Part Flag" dataType="bool" unit="" name="HPrtF" id="CC8" visible="0" context="Catalog_PartHide" index="0">0</ColumnConst>
+	<ColumnConst desc="Cross Sectional Shape" dataType="string" unit="" name="CSS" id="CC9" visible="1" context="SweptShape" index="0">SweptShape_Circular</ColumnConst>
+	<ColumnConst desc="Material" dataType="string" unit="" name="Mat" id="CC10" visible="1" context="Material_Type" index="0">WWTR</ColumnConst>
+	<ColumnCalc desc="Body Diameter  1" dataType="float" unit="inch" name="BdyD1" id="CCA0" visible="0" context="BodyGeometry_Diameter" index="1">$PID</ColumnCalc>
+</LandPart>

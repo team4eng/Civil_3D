@@ -1,0 +1,1107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Autodesk Civil 3D Pipe Catalog 2004 -->
+<pXML id="16C49365-B844-484b-92CE-9A8ACE681B57" version="1.0" name="T4 Pipes" xml:lang="en" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<Desc>T4 Pipes Catalog</Desc>
+	<DefaultLinearUnits>inch</DefaultLinearUnits>
+	<Images>
+		<Image>
+			<URL xlink:title="Catalog Image" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+		</Image>
+	</Images>
+	<Supplier name="Generic">
+		<Images>
+			<Image>
+				<URL xlink:title="Logo" xlink:href="Autodesk Logo.jpg" xlink:show="embed" xlink:actuate="onLoad"/>
+			</Image>
+		</Images>
+		<Link>
+			<URL xlink:title="US Imperial Pipe Catalog" xlink:href="http://www.autodesk.com" xml:lang="en"/>
+		</Link>
+	</Supplier>
+	<Extrinsics>
+		<Extrinsic>
+			<AeccCIRules>
+				<DomainHierarchy>
+					<Domain>
+						<DomainEnum>Pipe_Domain</DomainEnum>
+						<Type>
+							<TypeEnum>Pipe</TypeEnum>
+						</Type>
+					</Domain>
+				</DomainHierarchy>
+				<DomainSet>
+					<DomainEnum>Pipe_Domain</DomainEnum>
+				</DomainSet>
+				<TypeSet>
+					<TypeEnum>Pipe</TypeEnum>
+					<TypeEnum>Elbow</TypeEnum>
+					<TypeEnum>Tee</TypeEnum>
+					<TypeEnum>Wye</TypeEnum>
+					<TypeEnum>Cross</TypeEnum>
+					<TypeEnum>Takeoff</TypeEnum>
+					<TypeEnum>Transition</TypeEnum>
+					<TypeEnum>Coupling</TypeEnum>
+					<TypeEnum>Endcap</TypeEnum>
+				</TypeSet>
+				<SubTypeSet>
+					<SubTypeString>Undefined</SubTypeString>
+				</SubTypeSet>
+				<ShapeSet>
+					<PartShapeEnum>Round</PartShapeEnum>
+				</ShapeSet>
+				<ConnectionTypeSet>
+					<ConnectionTypeEnum>Undefined_Connection_Type</ConnectionTypeEnum>
+				</ConnectionTypeSet>
+				<MaterialSet>
+					<MaterialString>CATV</MaterialString>
+					<MaterialString>CATV DUCT</MaterialString>
+					<MaterialString>CWTR</MaterialString>
+					<MaterialString>COMM</MaterialString>
+					<MaterialString>COMM DUCT</MaterialString>
+					<MaterialString>ELEC</MaterialString>
+					<MaterialString>ELEC DUCT</MaterialString>
+					<MaterialString>FIBR</MaterialString>
+					<MaterialString>FIBR DUCT</MaterialString>
+					<MaterialString>NGAS</MaterialString>
+					<MaterialString>IRRG</MaterialString>
+					<MaterialString>NPWR</MaterialString>
+					<MaterialString>STRM</MaterialString>
+					<MaterialString>TRAF</MaterialString>
+					<MaterialString>TRAF DUCT</MaterialString>
+					<MaterialString>WWTR</MaterialString>
+					<MaterialString>WATR</MaterialString>
+				</MaterialSet>
+				<ParameterSet>
+					<ParameterString>BTRowID</ParameterString>
+					<ParameterString>PID</ParameterString>
+					<ParameterString>WTh</ParameterString>
+					<ParameterString>PrtSN</ParameterString>
+					<ParameterString>ACMan</ParameterString>
+					<ParameterString>PDom</ParameterString>
+					<ParameterString>PTyp</ParameterString>
+					<ParameterString>PSTyp</ParameterString>
+					<ParameterString>PrtNm</ParameterString>
+					<ParameterString>PrtD</ParameterString>
+					<ParameterString>PrtID</ParameterString>
+					<ParameterString>DVer</ParameterString>
+					<ParameterString>CntTy</ParameterString>
+					<ParameterString>HPrtF</ParameterString>
+					<ParameterString>CSS</ParameterString>
+					<ParameterString>Mat</ParameterString>
+					<ParameterString>CatID</ParameterString>
+					<ParameterString>BdyD1</ParameterString>
+					<ParameterString>PIW</ParameterString>
+					<ParameterString>PIH</ParameterString>
+					<ParameterString>LenA1</ParameterString>
+					<ParameterString>LenA2</ParameterString>
+					<ParameterString>R1</ParameterString>
+					<ParameterString>R2</ParameterString>
+					<ParameterString>BdyD2</ParameterString>
+					<ParameterString>SDRV</ParameterString>
+					<ParameterString>ACHW</ParameterString>
+				</ParameterSet>
+				<UnitsSet>
+					<UnitsEnum/>
+					<UnitsEnum>inch</UnitsEnum>
+					<UnitsEnum>ft</UnitsEnum>
+					<UnitsEnum>mm</UnitsEnum>
+					<UnitsEnum>cm</UnitsEnum>
+					<UnitsEnum>m</UnitsEnum>
+					<UnitsEnum>deg</UnitsEnum>
+				</UnitsSet>
+				<RelativePathPreference>Table</RelativePathPreference>
+			</AeccCIRules>
+		</Extrinsic>
+	</Extrinsics>
+	<Chapter name="T4_Gravity_Pipes">T4_Gravity_Pipes
+		<Desc>T4_Gravity_Pipes</Desc>
+		<Chapter name="Misc">Misc
+			<Desc>Misc</Desc>
+			<Part name="T4_CATV" id="8E249859-0CF1-4B65-A571-D0F29A8B5009">
+				<Desc>T4 CATV</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 CATV" xlink:href="T4_Gravity_Pipes\Misc\T4_CATV.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_CATV.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_CATV_Conduit" id="E44EE01A-93A6-4D1E-9EEA-DBFF75F667D9">
+				<Desc>T4 CATV Conduit</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 CATV Conduit" xlink:href="T4_Gravity_Pipes\Misc\T4_CATV_Conduit.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_CATV_Conduit.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_CATV_DuctBank" id="83EED066-83A4-4EA1-9F91-0BA346AD5931">
+				<Desc>T4 CATV Duct Bank</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 CATV Duct Bank" xlink:href="T4_Gravity_Pipes\Misc\T4_CATV_DuctBank.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_CATV_DuctBank.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Chilled_Water" id="A8874EFE-95CD-463F-A1D4-71568B0778D8">
+				<Desc>T4 Chilled Water</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Chilled Water" xlink:href="T4_Gravity_Pipes\Misc\T4_Chilled_Water.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Chilled_Water.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Communication" id="4AD5E7E6-C8CD-42DD-AAF2-A6E1C78CFF40">
+				<Desc>T4 Communication</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Communication" xlink:href="T4_Gravity_Pipes\Misc\T4_Communication.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Communication.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Communication_Conduit" id="CDF5EACD-0F3F-4B69-A344-6D496AE2E6D7">
+				<Desc>T4 Communication Conduit</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Communication Conduit" xlink:href="T4_Gravity_Pipes\Misc\T4_Communication_Conduit.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Communication_Conduit.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Communcation_DuctBank" id="5E55B3F1-F19A-466C-A46A-E8C3B8811AAE">
+				<Desc>T4 Communication Duct Bank</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Communication Duct Bank" xlink:href="T4_Gravity_Pipes\Misc\T4_Communication_DuctBank.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Communication_DuctBank.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Electric" id="51665815-B108-4DC5-A58C-902B6E82D8A5">
+				<Desc>T4 Electric</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Electric" xlink:href="T4_Gravity_Pipes\Misc\T4_Electric.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Electric.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Electric_Conduit" id="327899EC-8C4A-4A02-BF9E-71F26F726605">
+				<Desc>T4 Electric Conduit</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Electric Conduit" xlink:href="T4_Gravity_Pipes\Misc\T4_Electric_Conduit.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Electric_Conduit.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Electric_DuctBank" id="E5314D57-D441-406B-938A-5520E67CC3E0">
+				<Desc>T4 Electric Duct Bank</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Electric Duct Bank" xlink:href="T4_Gravity_Pipes\Misc\T4_Electric_DuctBank.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Electric_DuctBank.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Fiber_Optic" id="A8E9619C-C9C1-45EA-B957-F4953C92CC06">
+				<Desc>T4 Fiber Optic</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Fiber Optic" xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Fiber_Optic_Conduit" id="4203E683-A86A-4690-A960-D80BC61CAA8A">
+				<Desc>T4 Fiber Optic Conduit</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Fiber Optic Conduit" xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic_Conduit.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic_Conduit.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Fiber_Optic_DuctBank" id="AB4A03C4-7203-4881-903D-CB54767A4DF7">
+				<Desc>T4 Fiber Optic Duct Bank</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Fiber Optic Duct Bank" xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic_DuctBank.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Fiber_Optic_DuctBank.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Gas" id="FED3C673-D934-44A2-9DEB-DF600E5DE44B">
+				<Desc>T4 Gas</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Gas" xlink:href="T4_Gravity_Pipes\Misc\T4_Gas.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Gas.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Irrigation" id="F746A448-2018-4513-B4C9-FF399380F2D2">
+				<Desc>T4 Irrigation</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Irrigation" xlink:href="T4_Gravity_Pipes\Misc\T4_Irrigation.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Irrigation.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Reclaimed_Water" id="99F7D875-AC3E-45B4-8F0D-6FC04A73F1CF">
+				<Desc>T4 Reclaimed Water</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Reclaimed Water" xlink:href="T4_Gravity_Pipes\Misc\T4_Reclaimed_Water.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Reclaimed_Water.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Storm_CMP" id="759D4D21-EF2B-4F19-A34B-B44C4BC75A5E">
+				<Desc>T4 Storm CMP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm CMP" xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_CMP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_CMP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Storm_CMPA" id="94430D2A-CCE6-43B4-9E50-A0BC3248F653">
+				<Desc>T4 Storm CMPA</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm CMPA" xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_CMPA.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_CMPA.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Storm_RCP" id="96392FBD-7D52-4288-B320-55F6BBF11337">
+				<Desc>T4 Storm RCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm RCP" xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Storm_RCPA" id="96D7D7E7-40C5-4D04-AF51-4884FF17F7ED">
+				<Desc>T4 Storm RCPA</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm RCPA" xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCPA.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCPA.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Storm_RCPB" id="1412D006-2437-4AAA-85A0-68C1B830B88C">
+				<Desc>T4 Storm RCPB</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm RCPB" xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCPB.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Storm_RCPB.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Traffic_Signal" id="D3C7A0BC-C842-4483-8B97-2CD28DBD26A4">
+				<Desc>T4 Traffic Signal</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Traffic Signal" xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Traffic_Signal_Conduit" id="DAD43EE3-3096-4F44-B45C-0064ED9EB210">
+				<Desc>T4 Traffic Signal Conduit</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Traffic Signal Conduit" xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal_Conduit.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal_Conduit.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Traffic_Signal_DuctBank" id="25AF5B7F-1FA6-4F2F-ACE5-EB629777DD0A">
+				<Desc>T4 Traffic Signal Duct Bank</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Traffic Signal Duct Bank" xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal_DuctBank.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Traffic_Signal_DuctBank.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater" id="75C2526F-A7AD-4FAB-BCE2-4F8719FFCA87">
+				<Desc>T4 WasteWater</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater" xlink:href="T4_Gravity_Pipes\Misc\T4_WasteWater.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_WasteWater.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_Forcemain" id="601ED256-40B6-4C19-BDDD-63A633BC6355">
+				<Desc>T4 WasteWater Forcemain</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater Forcemain" xlink:href="T4_Gravity_Pipes\Misc\T4_WasteWater_Forcemain.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_WasteWater_Forcemain.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water" id="5D834150-09F3-4BF2-84C3-5E2966FB5DDE">
+				<Desc>T4 Water</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water" xlink:href="T4_Gravity_Pipes\Misc\T4_Water.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Misc\T4_Water.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+		</Chapter>
+		<Chapter name="Storm">Storm
+			<Desc>Storm</Desc>
+			<Part name="T4_StormDrain_CLAY" id="B6C58075-8119-4C8E-8E10-6EDF1025A2F5">
+				<Desc>T4 Storm Drain Clay</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain Clay" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CLAY.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CLAY.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_CMP" id="4ABC98D8-1793-42FE-9114-D7DE7E6036B5">
+				<Desc>T4 Storm Drain CMP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain CMP" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CMP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CMP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_CMPA" id="10406921-5E82-4C9F-8AC1-E0D3F362A57D">
+				<Desc>T4 Storm Drain CMPA</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain CMPA" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CMPA.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_CMPA.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_HDPE" id="C344654F-2BE2-44F8-9335-9A8E3D35FAB9">
+				<Desc>T4 Storm Drain HDPE</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain HDPE" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_HDPE.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_HDPE.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_PVC" id="ECAB0042-8A1B-4C9B-8BA2-0E382339D5C3">
+				<Desc>T4 Storm Drain PVC</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain PVC" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_PVC.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_PVC.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_PVC_SCH40" id="7C775412-075E-49AD-9FFB-FCFBE740D1A1">
+				<Desc>T4 Storm Drain PVC SCH40</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain PVC SCH40" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_PVC_SCH40.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_PVC_SCH40.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_RCP" id="0A5C4934-6FFC-4632-9F99-686DDB87E121">
+				<Desc>T4 Storm Drain RCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain RCP" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_RCPA" id="B8042E53-7E65-482B-A91B-63EF797BE471">
+				<Desc>T4 Storm Drain RCPA</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain RCPA" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCPA.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCPA.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Arched" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_RCPB" id="4A616834-BB8F-4AD4-BD90-044D4CB75765">
+				<Desc>T4 Storm Drain RCPB</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain RCPB" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCPB.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_RCPB.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Rectangular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_StormDrain_Unknown" id="98704C79-2DA4-41E8-A349-D25838C25609">
+				<Desc>T4 Storm Drain Unknown</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Storm Drain Unknown" xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_Unknown.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Storm\T4_StormDrain_Unknown.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+		</Chapter>
+		<Chapter name="WasteWater">WasteWater
+			<Desc>WasteWater</Desc>
+			<Part name="T4_WasteWater_BCCP" id="5E2BB78E-5B24-46A4-95D9-0ADCABE495A9">
+				<Desc>T4 WasteWater BCCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater BCCP" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_BCCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_BCCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_CI" id="97F5AF94-D1D0-4DB5-B5EC-331AA6CE5C24">
+				<Desc>T4 WasteWater CI</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater CI" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_CI.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_CI.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_Concrete" id="28967072-49AE-4742-B20A-B8ACFA19C9E9">
+				<Desc>T4 WasteWater Concrete</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater Concrete" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_Concrete.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_Concrete.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_DI" id="4D56E746-5E66-4E07-8C59-26B13F624401">
+				<Desc>T4 WasteWater DI</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater DI" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_DI_Class_250" id="B7B21F29-9426-4C99-AAF9-D138251A59D7">
+				<Desc>T4 WasteWater DI Class 250</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater DI Class 250" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI_Class_250.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI_Class_250.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_DI_Class_350" id="AAF48789-D612-440D-BE8E-4A62DCF3255B">
+				<Desc>T4 WasteWater DI Class 350</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater DI Class 350" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI_Class_350.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_DI_Class_350.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_GRP_Class_72" id="5BC289D3-66EC-492C-B1AB-22887CE7C90D">
+				<Desc>T4 WasteWater GRP Class 72</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater GRP Class 72" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_GRP_Class_72.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_GRP_Class_72.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PCCP" id="BA8F1158-1DDE-47DE-85F4-3AB3F9DD9743">
+				<Desc>T4 WasteWater PCCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PCCP" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PCCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PCCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PE" id="33E87D36-B2B0-4F54-A6BB-9AD9509F9078">
+				<Desc>T4 WasteWater PE</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PE" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PE.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PE.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PE_4710_Class_250" id="262CCFD5-276C-4B8E-A5FF-0FCB412E0FEA">
+				<Desc>T4 WasteWater PE Class 250</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PE Class 250" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PE_4710_Class_250.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PE_4710_Class_250.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PVC" id="EB423818-577A-4BA0-B6AC-00B07C4F2E9B">
+				<Desc>T4 WasteWater PVC</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PVC" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PVC_PS115" id="FB50483E-CA7E-4594-BD5E-B5BA617CB3DF">
+				<Desc>T4 WasteWater PVC PS115</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PVC PS115" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_PS115.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_PS115.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PVC_SCH80" id="588CE240-E732-4DC9-B35D-7A3338DF8A2F">
+				<Desc>T4 WasteWater PVC SCH80</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PVC SCH80" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_SCH80.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_SCH80.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_PVC_SDR26" id="25D945D5-52F9-4197-8220-E953BC914B6F">
+				<Desc>T4 WasteWater PVC SDR26</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater PVC SDR26" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_SDR26.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_PVC_SDR26.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WasteWater_Unknown" id="687E41F3-0440-40EB-8541-F2CCBCCD8C1F">
+				<Desc>T4 WasteWater Unknown</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater Unknown" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_Unknown.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_Unknown.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_WW_VCP" id="A0F3256A-F9E5-4ED5-A110-CB3C0A34BBCF">
+				<Desc>T4 WasteWater VCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 WasteWater VCP" xlink:href="T4_Gravity_Pipes\WasteWater\T4_WW_VCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\WasteWater\T4_WasteWater_VCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+		</Chapter>
+		<Chapter name="Water">Water
+			<Desc>Water</Desc>
+			<Part name="T4_Water_CI" id="0EBC63E2-A029-40D9-AE4F-CA6B5803D6EF">
+				<Desc>T4 Water CI</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water CI" xlink:href="T4_Gravity_Pipes\Water\T4_Water_CI.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_CI.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_DI" id="39D3D5BC-A49D-4A48-83E5-E7B8BF864E7A">
+				<Desc>T4 Water DI</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water DI" xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_DI_Class_250" id="1EA2112A-6DA2-49C2-8E30-5F5C765288C0">
+				<Desc>T4 Water DI Class 250</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water DI Class 250" xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI_Class_250.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI_Class_250.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_DI_Class_350" id="3C469E31-FE25-416C-88F8-600F48B8AF7F">
+				<Desc>T4 Water DI Class 350</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water DI Class 350" xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI_Class_350.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_DI_Class_350.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_PCCP" id="9E7B2C26-5F34-40AC-9C16-A9A20518C9AF">
+				<Desc>T4 Water PCCP</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water PCCP" xlink:href="T4_Gravity_Pipes\Water\T4_Water_PCCP.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_PCCP.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_PVC" id="C131B6A1-598D-4B3C-8B6B-505FCEA79022">
+				<Desc>T4 Water PVC</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water PVC" xlink:href="T4_Gravity_Pipes\Water\T4_Water_PVC.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_PVC.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_PVC_C900_DR14" id="67735FB1-3C72-447E-8D12-F07676504D85">
+				<Desc>T4 Water PVC C900 DR14</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water PVC C900 DR14" xlink:href="T4_Gravity_Pipes\Water\T4_Water_PVC_C900_DR14.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_PVC_C900_DR14.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+			<Part name="T4_Water_Unknown" id="8D87D40E-66F7-44AB-BBB4-7CACF4B32A31">
+				<Desc>T4 Water Unknown</Desc>
+				<Images>
+					<Image>
+						<URL xlink:title="T4 Water Unknown" xlink:href="T4_Gravity_Pipes\Water\T4_Water_Unknown.bmp" xlink:show="embed" xlink:actuate="onLoad"/>
+					</Image>
+				</Images>
+				<TableRef>
+					<URL xlink:href="T4_Gravity_Pipes\Water\T4_Water_Unknown.xml"/>
+				</TableRef>
+				<Extrinsics>
+					<Extrinsic name="AeccPartSearchAttribList">
+						<AeccPartSearchAttribList domain="Pipe_Domain" part_type="Pipe" part_subtype="Undefined" part_shape="SweptShape_Circular" placeholder="False" hidepart="False"/>
+					</Extrinsic>
+				</Extrinsics>
+			</Part>
+		</Chapter>
+	</Chapter>
+</pXML>
